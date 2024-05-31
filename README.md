@@ -1,5 +1,5 @@
 ## About ##
-The Cloud Elevation Index metric was developed at Penn State University to show the releative usage of higher level cloud services across accounts and in larger groupings. The Index value tracks the spend of services against a relative score for every service in the big three providers. 
+The Cloud Elevation Index metric was developed at Penn State University to show the releative usage of higher level cloud services across accounts and in larger groupings. The Index value tracks the spend of services against a relative score for services in the big three providers. For a better, more informative explanation see the excellent presentation Rick Rhoades delivered at the 2024 Internet2 Cloud Forum.
 
 [Telling Our Story: The Somewhat Painful, Probably Never-Ending Search for Cloud Metrics](https://drive.google.com/file/d/19nPqr4m0cxjSRZbBE-f4FiY1yiPmBLOq/view?usp=sharing)
 
