@@ -1,0 +1,50 @@
+[
+    {
+      "mode": "NULLABLE",
+      "name": "provider",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "score",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "service_name",
+      "type": "STRING"
+    },
+    {
+      "fields": [
+        {
+          "mode": "NULLABLE",
+          "name": "id",
+          "type": "STRING"
+        },
+        {
+          "mode": "REPEATED",
+          "name": "destination_migration_mappings",
+          "type": "STRING"
+        },
+        {
+          "mode": "NULLABLE",
+          "name": "description",
+          "type": "STRING"
+        }
+      ],
+      "mode": "NULLABLE",
+      "name": "sku",
+      "type": "RECORD"
+    },
+    {
+      "description": "CEI score as created in Gemini Pro 1.5",
+      "mode": "NULLABLE",
+      "name": "gemini_1_5_pro_score",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "service_alias",
+      "type": "STRING"
+    }
+  ]

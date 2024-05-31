@@ -1,0 +1,6 @@
+with 
+  account_spend as (
+    SELECT project.id as account_id, Date(CONCAT(SUBSTR(invoice.month,0,4),"-",SUBSTR(invoice.month,5,2),"-01")) as billing_period, Round((SUM(CAST(cost * 1000000 AS int64)) / 1000000) + IFNULL((SUM((SELECT SUM(if(c.type !="PROMOTION", CAST(c.amount * 1000000 AS int64), 0)) FROM   UNNEST(credits) c))/1000000),0.0),2) as total_cost From `up-eit-ce-production.CSP_Billing.GCP_Combined_View` group by 1,2 order by 1
+  )
+SELECT account_id, billing_period, IF(Round(SUM(percentage_spend),2) >0, Round(SUM(weighted_score)/SUM(percentage_spend),2), 0) as CEI, total_cost from (
+Select account_id, service_score.billing_period, servicecode, score, cost-service_score.credits_applied, total_cost, Round((cost-service_score.credits_applied/total_cost)*100,2) as percentage_spend, Round((cost-service_score.credits_applied/total_cost)*100,2)*score as weighted_score from `up-eit-ce-production.Cloud_Elevation_Index.GCP_Service_Scoring` service_score join account_spend using (account_id, billing_period) where total_cost > 0  order by account_id) group by 1,2,4 order by 1,2
