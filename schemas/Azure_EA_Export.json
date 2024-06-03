@@ -1,0 +1,307 @@
+[
+    {
+      "mode": "NULLABLE",
+      "name": "invoice_section",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "account_name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "account_owner_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "subscription_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "subscription_name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "resource_group",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "resource_location",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "date",
+      "type": "TIMESTAMP"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "meter_category",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "meter_subcategory",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "meter_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "meter_name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "meter_region",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "unit_of_measure",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "quantity",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "effective_price",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "cost",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "cost_center",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "consumed_service",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "resource_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "tags",
+      "type": "JSON"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "offer_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "additional_info",
+      "type": "JSON"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "service_info1",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "service_info2",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "resource_name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation_name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "unit_price",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product_order_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product_order_name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "term",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "publisher_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "publisher_name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "charge_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "frequency",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "pricing_model",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "availibility_zone",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "billing_account_id",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "billing_account_name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "billing_currency",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "billing_period_start_date",
+      "type": "TIMESTAMP"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "billing_period_end_date",
+      "type": "TIMESTAMP"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "billing_profile_id",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "billing_profile_name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "invoice_section_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "is_azure_credit_eligible",
+      "type": "BOOLEAN"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "part_number",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "pay_g_price",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "plan_name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "service_family",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "cost_allocation_rule",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "benefit_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "benefit_name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "meter_details",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "kind",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "billing_period",
+      "type": "DATE"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "id",
+      "type": "STRING"
+    }
+  ]

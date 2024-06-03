@@ -1,0 +1,1877 @@
+[
+    {
+      "mode": "NULLABLE",
+      "name": "identity:line_item_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "identity:time_interval",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "bill:invoice_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "bill:invoicing_entity",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "bill:billing_entity",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "bill:bill_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "bill:payer_account_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "REQUIRED",
+      "name": "bill:billing_period_start_date",
+      "type": "TIMESTAMP"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "bill:billing_period_end_date",
+      "type": "TIMESTAMP"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "lineItem:usage_account_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "lineItem:line_item_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "lineItem:usage_start_date",
+      "type": "TIMESTAMP"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "lineItem:usage_end_date",
+      "type": "TIMESTAMP"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "lineItem:product_code",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "lineItem:usage_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "lineItem:operation",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "lineItem:availability_zone",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "lineItem:resource_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "lineItem:usage_amount",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "lineItem:normalization_factor",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "lineItem:normalized_usage_amount",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "lineItem:currency_code",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "lineItem:unblended_rate",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "lineItem:unblended_cost",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "lineItem:blended_rate",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "lineItem:blended_cost",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "lineItem:line_item_description",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "lineItem:tax_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "lineItem:net_unblended_rate",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "lineItem:net_unblended_cost",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "lineItem:legal_entity",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:product_name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:purchase_option",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:size_flex",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:access_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:account_assistance",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:alarm_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:alpha3countrycode",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:architectural_review",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:architecture_support",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:attachment_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:availability",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:availability_zone",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:backupservice",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:base_product_reference_code",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:best_practices",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:bit_rate",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:broker_engine",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:bundle",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:bundle_description",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:bundle_group",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:cache_engine",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:cache_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:capacity",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:capacitystatus",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:case_severityresponse_times",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:category",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:ci_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:classicnetworkingsupport",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:client_location",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:clock_speed",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:component",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:compute_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:connection_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:content_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:continent",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:country",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:counts_against_quota",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:cpu_architecture",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:cputupe",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:cputype",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:current_generation",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:customer_service_and_communities",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:data",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:data_transfer_quota",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:data_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:database_edition",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:database_engine",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:datatransferout",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:dedicated_ebs_throughput",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:deployment_option",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:describes",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:description",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:destination_country_iso_code",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:direct_connect_location",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:directory_size",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:directory_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:directory_type_description",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:dominantnondominant",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:durability",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:ecu",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:edition",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:endpoint",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:endpoint_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:engine_code",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:engine_major_version",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:enhanced_networking_support",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:enhanced_networking_supported",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:equivalentondemandsku",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:event_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:extended_support_pricing_year",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:fee_code",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:fee_description",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:file_system_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:finding_group",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:finding_source",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:finding_storage",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:frame_rate",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:free_overage",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:free_query_types",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:free_tier",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:free_trial",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:free_usage_included",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:from_location",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:from_location_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:from_region_code",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:gb",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:georegioncode",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:gets",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:gpu",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:gpu_memory",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:group",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:group_description",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:included_services",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:input",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:insightstype",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:instance_family",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:instance_function",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:instance_name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:instance_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:instance_type_family",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:intel_avx2_available",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:intel_avx_available",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:intel_turbo_available",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:invocation",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:launch_support",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:license",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:license_model",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:location",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:location_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:logs_destination",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:mailbox_storage",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:marketoption",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:max_iops_burst_performance",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:max_iopsvolume",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:max_throughputvolume",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:max_volume_size",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:maximum_capacity",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:maximum_extended_storage",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:maximum_storage_volume",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:memory",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:memory_gib",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:memorytype",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:message_countfee",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:message_delivery_frequency",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:message_delivery_order",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:message_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:metering_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:min_volume_size",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:minimum_storage_volume",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:network_performance",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:normalization_size_factor",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:operating_system",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:operation",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:operations_support",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:ops_items",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:origin",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:origination_id_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:os_license_model",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:output",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:overage_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:overhead",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:pack_size",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:parameter_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:physical_cpu",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:physical_gpu",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:physical_processor",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:pipeline",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:platoclassificationtype",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:platofeaturetype",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:platoinstancename",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:platoinstancetype",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:platopricingtype",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:port_speed",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:pre_installed_sw",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:pricing_unit",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:pricingplan",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:proactive_guidance",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:processor_architecture",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:processor_features",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:product_family",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:product_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:programmatic_case_management",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:provider",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:provisioned",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:purchaseterm",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:q_present",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:queue_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:recipient",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:region",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:region_code",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:request_description",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:request_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:reserve_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:resolution",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:resource",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:resource_endpoint",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:resource_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:rootvolume",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:route_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:routing_target",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:routing_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:running_mode",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:scan_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:servicecode",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:servicename",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:sku",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:snapshotarchivefeetype",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:software_included",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:standard_group",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:standard_storage",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:standard_storage_retention_included",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:steps",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:storage",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:storage_class",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:storage_description",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:storage_media",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:storage_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:subscription_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:subservice",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:technical_support",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:tenancy",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:thirdparty_software_support",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:throughput",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:throughput_capacity",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:throughput_class",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:tickettype",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:tier",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:tiertype",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:time_window",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:to_location",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:to_location_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:to_region_code",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:traffic_direction",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:training",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:transcoding_result",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:transfer_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:updates",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:usage_group",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:usage_volume",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:usagetype",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:uservolume",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:vaulttype",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:vcpu",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:version",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:video_codec",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:video_frame_rate",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:video_memory_gib",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:video_quality",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:video_quality_setting",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:video_resolution",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:virtual_interface_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:volume_api_name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:volume_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:vpcnetworkingsupport",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:who_can_open_cases",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:with_active_users",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "pricing:lease_contract_length",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "pricing:offering_class",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "pricing:purchase_option",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "pricing:rate_code",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "pricing:rate_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "pricing:currency",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "pricing:public_on_demand_cost",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "pricing:public_on_demand_rate",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "pricing:term",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "pricing:unit",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:amortized_upfront_cost_for_usage",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:amortized_upfront_fee_for_billing_period",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:effective_cost",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:end_time",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:modification_status",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:net_amortized_upfront_cost_for_usage",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:net_amortized_upfront_fee_for_billing_period",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:net_effective_cost",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:net_recurring_fee_for_usage",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:net_unused_amortized_upfront_fee_for_billing_period",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:net_unused_recurring_fee",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:net_upfront_value",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:normalized_units_per_reservation",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:number_of_reservations",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:recurring_fee_for_usage",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:reservation_a_r_n",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:start_time",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:subscription_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:total_reserved_normalized_units",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:total_reserved_units",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:units_per_reservation",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:unused_amortized_upfront_fee_for_billing_period",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:unused_normalized_unit_quantity",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:unused_quantity",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:unused_recurring_fee",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reservation:upfront_value",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "discount:spp_discount",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "discount:total_discount",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "savingsPlan:total_commitment_to_date",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "savingsPlan:savings_plan_a_r_n",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "savingsPlan:savings_plan_rate",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "savingsPlan:used_commitment",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "savingsPlan:savings_plan_effective_cost",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "savingsPlan:amortized_upfront_commitment_for_billing_period",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "savingsPlan:recurring_commitment_for_billing_period",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "savingsPlan:start_time",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "savingsPlan:end_time",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "savingsPlan:offering_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "savingsPlan:payment_option",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "savingsPlan:purchase_term",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "savingsPlan:region",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "savingsPlan:net_savings_plan_effective_cost",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "savingsPlan:net_amortized_upfront_commitment_for_billing_period",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "savingsPlan:net_recurring_commitment_for_billing_period",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "resourceTags:user:_application",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "resourceTags:user:_cost_code",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "resourceTags:user:_creator",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "resourceTags:user:_department",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "resourceTags:user:_description",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "resourceTags:user:_environment",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "resourceTags:user:_group",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "resourceTags:user:_name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "resourceTags:user:_owner",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "resourceTags:user:_project",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "resourceTags:user:_purpose",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "resourceTags:user:_service",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "resourceTags:user:_stage",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:build",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:feature",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:inference_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:instance",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:model",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:multi_session",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:supported_modes",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:type_description",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:api_calls",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:check_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:input_mode",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:output_mode",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:resource_price_group",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:architecture",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:compute_family",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:platodataanalyzedtype",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:platostoragename",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:platostoragetype",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:platotransfertype",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:platousagetype",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:platovolumetype",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:productgroup",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:api_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:entity_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:graphqloperation",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:io",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:offer",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:platopagedatatype",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:protocol",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:realtimeoperation",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:usage_family",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "resourceTags:user:_use",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:ingest_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:engine",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:data_transfer",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:ratetype",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:abd_instance_class",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:product_schema_description",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:iso",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product:origination_id",
+      "type": "STRING"
+    }
+  ]
