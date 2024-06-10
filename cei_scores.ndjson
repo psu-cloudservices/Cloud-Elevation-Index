@@ -1,6 +1,6 @@
-{"provider":"AWS","score":5,"service_name":"AwsCloudShell"}
-{"provider":"AWS","score":4.25,"service_name":"ComputeSavingsPlans"}
-{"provider":"AWS","score":8.54,"service_name":"Registrar"}
+{"provider":"AWS","score":5,"service_name":"AwsCloudShell","service_alias":"AWS CloudShell"}
+{"provider":"AWS","score":4.25,"service_name":"ComputeSavingsPlans","service_alias":"Savings Plans for AWS Compute usage"}
+{"provider":"AWS","score":8.54,"service_name":"Registrar","service_alias":"Amazon Registrar"}
 {"provider":"AWS","score":2.71,"service_name":"AWSDirectConnect","gemini_1_5_pro_score":2.5,"service_alias":"AWS Direct Connect"}
 {"provider":"AWS","service_name":"CloudHSM","gemini_1_5_pro_score":3,"service_alias":"AWS CloudHSM"}
 {"provider":"AWS","service_name":"ElasticMapReduce","gemini_1_5_pro_score":5,"service_alias":"Amazon Elastic MapReduce"}
@@ -10,289 +10,289 @@
 {"provider":"AWS","service_name":"IoTTwinMaker","gemini_1_5_pro_score":6,"service_alias":"AWS IoT TwinMaker"}
 {"provider":"AWS","service_name":"AWSR53AppRecoveryController","gemini_1_5_pro_score":6.5,"service_alias":"AWS Route 53 Application Recovery Controller"}
 {"provider":"AWS","score":5.21,"service_name":"AmazonRoute53","gemini_1_5_pro_score":6.5,"service_alias":"Amazon Route 53"}
-{"provider":"AWS","score":7.5,"service_name":"AmazonStates","gemini_1_5_pro_score":7,"service_alias":"AWS Step Functions"}
-{"provider":"AWS","service_name":"IoTDeviceDefender","gemini_1_5_pro_score":7,"service_alias":"AWS IoT Device Defender"}
-{"provider":"AWS","score":6.5,"service_name":"AmazonCloudFront","gemini_1_5_pro_score":7,"service_alias":"Amazon CloudFront"}
-{"provider":"AWS","service_name":"auditmanager","gemini_1_5_pro_score":7,"service_alias":"AWS Audit Manager"}
 {"provider":"AWS","score":7.5,"service_name":"AmazonETS","gemini_1_5_pro_score":7,"service_alias":"Amazon Elastic Transcoder"}
+{"provider":"AWS","score":6.5,"service_name":"AmazonCloudFront","gemini_1_5_pro_score":7,"service_alias":"Amazon CloudFront"}
+{"provider":"AWS","service_name":"IoTDeviceDefender","gemini_1_5_pro_score":7,"service_alias":"AWS IoT Device Defender"}
+{"provider":"AWS","score":7.5,"service_name":"AmazonStates","gemini_1_5_pro_score":7,"service_alias":"AWS Step Functions"}
+{"provider":"AWS","service_name":"auditmanager","gemini_1_5_pro_score":7,"service_alias":"AWS Audit Manager"}
 {"provider":"AWS","score":8.11,"service_name":"AWSElementalMediaConvert","gemini_1_5_pro_score":7.5,"service_alias":"AWS Elemental MediaConvert"}
 {"provider":"AWS","service_name":"AmazonConnectCases","gemini_1_5_pro_score":8,"service_alias":"AmazonConnectCases"}
-{"provider":"AWS","service_name":"AmazonHoneycode","gemini_1_5_pro_score":8,"service_alias":"Amazon Honeycode"}
 {"provider":"AWS","service_name":"AmazonBedrock","gemini_1_5_pro_score":8,"service_alias":"Amazon Bedrock"}
+{"provider":"AWS","service_name":"AmazonHoneycode","gemini_1_5_pro_score":8,"service_alias":"Amazon Honeycode"}
 {"provider":"AWS","score":5.79,"service_name":"AmazonS3GlacierDeepArchive","gemini_1_5_pro_score":8.5,"service_alias":"Amazon S3 Glacier Deep Archive"}
 {"provider":"AWS","score":8.5,"service_name":"AmazonWorkMail","gemini_1_5_pro_score":8.5,"service_alias":"AmazonWorkMail"}
 {"provider":"AWS","service_name":"AmazonChime","gemini_1_5_pro_score":8.5,"service_alias":"Amazon Chime"}
 {"provider":"AWS","service_name":"repostspace","gemini_1_5_pro_score":9,"service_alias":"AWS re:Post Private"}
 {"provider":"AWS","score":1.5,"service_name":"AmazonEC2","gemini_1_5_pro_score":1.5,"service_alias":"Amazon Elastic Compute Cloud"}
-{"provider":"AWS","service_name":"AmazonWorkSpacesWeb","gemini_1_5_pro_score":8.29,"service_alias":"Amazon WorkSpaces Web"}
 {"provider":"AWS","service_name":"AmazonChimeDialInAMCS","gemini_1_5_pro_score":8.29,"service_alias":"Amazon Chime Dial In a service sold by AMCS LLC"}
-{"provider":"AWS","score":2.43,"service_name":"AmazonGlacier","gemini_1_5_pro_score":8.29,"service_alias":"Amazon Glacier"}
 {"provider":"AWS","service_name":"AmazonChimeBusinessCalling","gemini_1_5_pro_score":8.29,"service_alias":"Amazon Chime Business Calling a service sold by AMCS LLC"}
-{"provider":"AWS","score":8.46,"service_name":"AWSDeveloperSupport","gemini_1_5_pro_score":8.79,"service_alias":"AWS Support (Developer)"}
-{"provider":"AWS","score":8.61,"service_name":"transcribe","gemini_1_5_pro_score":8.79,"service_alias":"Amazon Transcribe"}
+{"provider":"AWS","service_name":"AmazonWorkSpacesWeb","gemini_1_5_pro_score":8.29,"service_alias":"Amazon WorkSpaces Web"}
+{"provider":"AWS","score":2.43,"service_name":"AmazonGlacier","gemini_1_5_pro_score":8.29,"service_alias":"Amazon Glacier"}
 {"provider":"AWS","service_name":"AWSSupportBusiness","gemini_1_5_pro_score":8.79,"service_alias":"AWS Support (Business)"}
+{"provider":"AWS","score":8.61,"service_name":"transcribe","gemini_1_5_pro_score":8.79,"service_alias":"Amazon Transcribe"}
+{"provider":"AWS","score":8.46,"service_name":"AWSDeveloperSupport","gemini_1_5_pro_score":8.79,"service_alias":"AWS Support (Developer)"}
 {"provider":"AWS","service_name":"translate","gemini_1_5_pro_score":8.79,"service_alias":"Amazon Translate"}
 {"provider":"AWS","service_name":"AmazonEKSAnywhere","gemini_1_5_pro_score":2.64,"service_alias":"Amazon EKS Anywhere"}
 {"provider":"AWS","service_name":"AWSMDC","gemini_1_5_pro_score":1.57,"service_alias":"AWS Modular Data Center"}
 {"provider":"AWS","service_name":"VMwareCloudOnAWS","gemini_1_5_pro_score":4.29,"service_alias":"VMware Cloud on AWS"}
 {"provider":"AWS","service_name":"AWSPrivate5G","gemini_1_5_pro_score":5.29,"service_alias":"AWS Private 5G"}
 {"provider":"AWS","score":2.25,"service_name":"AWSDataTransfer","gemini_1_5_pro_score":5.79,"service_alias":"AWS Data Transfer"}
-{"provider":"AWS","service_name":"AWSDeepRacer","gemini_1_5_pro_score":6.29,"service_alias":"AWS DeepRacer"}
-{"provider":"AWS","score":4.92,"service_name":"AmazonES","gemini_1_5_pro_score":6.29,"service_alias":"Amazon OpenSearch Service"}
 {"provider":"AWS","score":4.96,"service_name":"AmazonECS","gemini_1_5_pro_score":6.29,"service_alias":"Amazon Elastic Container Service"}
 {"provider":"AWS","score":4.79,"service_name":"AWSELB","gemini_1_5_pro_score":6.29,"service_alias":"Elastic Load Balancing"}
+{"provider":"AWS","service_name":"AWSDeepRacer","gemini_1_5_pro_score":6.29,"service_alias":"AWS DeepRacer"}
+{"provider":"AWS","score":4.92,"service_name":"AmazonES","gemini_1_5_pro_score":6.29,"service_alias":"Amazon OpenSearch Service"}
 {"provider":"AWS","service_name":"AmazonMedicalImaging","gemini_1_5_pro_score":6.29,"service_alias":"AWS HealthImaging"}
-{"provider":"AWS","score":7.64,"service_name":"AmazonApiGateway","gemini_1_5_pro_score":6.79,"service_alias":"Amazon API Gateway"}
-{"provider":"AWS","service_name":"AWSCleanRooms","gemini_1_5_pro_score":6.79,"service_alias":"AWS Clean Rooms"}
-{"provider":"AWS","service_name":"AWSCodeDeploy","gemini_1_5_pro_score":6.79,"service_alias":"AWS CodeDeploy"}
 {"provider":"AWS","score":5,"service_name":"AWSDataSync","gemini_1_5_pro_score":6.79,"service_alias":"AWS DataSync"}
+{"provider":"AWS","service_name":"AWSCodeDeploy","gemini_1_5_pro_score":6.79,"service_alias":"AWS CodeDeploy"}
 {"provider":"AWS","service_name":"AWSMigrationHubRefactorSpaces","gemini_1_5_pro_score":6.79,"service_alias":"AWS Migration Hub Refactor Spaces"}
-{"provider":"AWS","score":7.96,"service_name":"AmazonCognito","gemini_1_5_pro_score":6.79,"service_alias":"Amazon Cognito"}
 {"provider":"AWS","service_name":"AmazonChimeServices","gemini_1_5_pro_score":6.79,"service_alias":"Amazon Chime Services"}
-{"provider":"AWS","score":8.5,"service_name":"AmazonLex","gemini_1_5_pro_score":7.29,"service_alias":"Amazon Lex"}
-{"provider":"AWS","score":2.5,"service_name":"AmazonGrafana","gemini_1_5_pro_score":7.29,"service_alias":"Amazon Managed Grafana"}
-{"provider":"AWS","service_name":"AmazonPersonalize","gemini_1_5_pro_score":7.29,"service_alias":"Amazon Personalize"}
+{"provider":"AWS","service_name":"AWSCleanRooms","gemini_1_5_pro_score":6.79,"service_alias":"AWS Clean Rooms"}
+{"provider":"AWS","score":7.64,"service_name":"AmazonApiGateway","gemini_1_5_pro_score":6.79,"service_alias":"Amazon API Gateway"}
+{"provider":"AWS","score":7.96,"service_name":"AmazonCognito","gemini_1_5_pro_score":6.79,"service_alias":"Amazon Cognito"}
 {"provider":"AWS","service_name":"PaymentCryptography","gemini_1_5_pro_score":7.29,"service_alias":"AWS Payment Cryptography"}
-{"provider":"AWS","service_name":"AWSB2Bi","gemini_1_5_pro_score":7.29,"service_alias":"AWS B2B Data Interchange"}
-{"provider":"AWS","service_name":"AmazonIVS","gemini_1_5_pro_score":7.29,"service_alias":"Amazon Interactive Video Service"}
-{"provider":"AWS","service_name":"AmazonForecast","gemini_1_5_pro_score":7.29,"service_alias":"Amazon Forecast"}
+{"provider":"AWS","score":2.5,"service_name":"AmazonGrafana","gemini_1_5_pro_score":7.29,"service_alias":"Amazon Managed Grafana"}
+{"provider":"AWS","score":8.5,"service_name":"AmazonLex","gemini_1_5_pro_score":7.29,"service_alias":"Amazon Lex"}
+{"provider":"AWS","service_name":"AmazonPersonalize","gemini_1_5_pro_score":7.29,"service_alias":"Amazon Personalize"}
 {"provider":"AWS","service_name":"AWSSupplyChain","gemini_1_5_pro_score":7.29,"service_alias":"AWS Supply Chain"}
+{"provider":"AWS","service_name":"AWSB2Bi","gemini_1_5_pro_score":7.29,"service_alias":"AWS B2B Data Interchange"}
 {"provider":"AWS","service_name":"AmazonFraudDetector","gemini_1_5_pro_score":7.29,"service_alias":"Amazon Fraud Detector"}
+{"provider":"AWS","service_name":"AmazonForecast","gemini_1_5_pro_score":7.29,"service_alias":"Amazon Forecast"}
+{"provider":"AWS","service_name":"AmazonIVS","gemini_1_5_pro_score":7.29,"service_alias":"Amazon Interactive Video Service"}
 {"provider":"AWS","service_name":"AWSIoTThingsGraph","gemini_1_5_pro_score":7.29,"service_alias":"AWS IoT Things Graph"}
-{"provider":"AWS","service_name":"AmazonDevOpsGuru","gemini_1_5_pro_score":7.79,"service_alias":"Amazon DevOps Guru"}
-{"provider":"AWS","service_name":"AWSComputeOptimizer","gemini_1_5_pro_score":7.79,"service_alias":"AWS Compute Optimizer"}
 {"provider":"AWS","score":8.14,"service_name":"CodeGuru","gemini_1_5_pro_score":7.79,"service_alias":"CodeGuru"}
+{"provider":"AWS","service_name":"AWSComputeOptimizer","gemini_1_5_pro_score":7.79,"service_alias":"AWS Compute Optimizer"}
+{"provider":"AWS","service_name":"AmazonDevOpsGuru","gemini_1_5_pro_score":7.79,"service_alias":"Amazon DevOps Guru"}
 {"provider":"AWS","service_name":"AWSOutposts","gemini_1_5_pro_score":4.07,"service_alias":"AWS Outposts"}
+{"provider":"AWS","service_name":"AWSSecurityHub","gemini_1_5_pro_score":6.07,"service_alias":"AWS Security Hub"}
 {"provider":"AWS","service_name":"AWSElasticDisasterRecovery","gemini_1_5_pro_score":6.07,"service_alias":"AWS Elastic Disaster Recovery"}
 {"provider":"AWS","service_name":"AmazonBraket","gemini_1_5_pro_score":6.07,"service_alias":"Amazon Braket"}
-{"provider":"AWS","service_name":"AWSSecurityHub","gemini_1_5_pro_score":6.07,"service_alias":"AWS Security Hub"}
-{"provider":"AWS","service_name":"AWSIoTSiteWise","gemini_1_5_pro_score":6.57,"service_alias":"AWS IoT SiteWise"}
+{"provider":"AWS","score":7.5,"service_name":"AWSCodeArtifact","gemini_1_5_pro_score":6.57,"service_alias":"AWS CodeArtifact"}
 {"provider":"AWS","service_name":"AWSApplicationMigrationSvc","gemini_1_5_pro_score":6.57,"service_alias":"AWS Application Migration Service"}
 {"provider":"AWS","score":7.66,"service_name":"AWSCodePipeline","gemini_1_5_pro_score":6.57,"service_alias":"AWS CodePipeline"}
-{"provider":"AWS","service_name":"AWSCloudFormation","gemini_1_5_pro_score":6.57,"service_alias":"AWS CloudFormation"}
 {"provider":"AWS","service_name":"AmazonMonitron","gemini_1_5_pro_score":6.57,"service_alias":"Amazon Monitron"}
-{"provider":"AWS","score":7.5,"service_name":"AWSCodeArtifact","gemini_1_5_pro_score":6.57,"service_alias":"AWS CodeArtifact"}
-{"provider":"AWS","service_name":"ContactCenterTelecommKR","gemini_1_5_pro_score":7.07,"service_alias":"Contact Center Telecommunications Korea"}
+{"provider":"AWS","service_name":"AWSCloudFormation","gemini_1_5_pro_score":6.57,"service_alias":"AWS CloudFormation"}
+{"provider":"AWS","service_name":"AWSIoTSiteWise","gemini_1_5_pro_score":6.57,"service_alias":"AWS IoT SiteWise"}
 {"provider":"AWS","service_name":"AmazonKendra","gemini_1_5_pro_score":7.07,"service_alias":"Amazon Kendra"}
-{"provider":"AWS","service_name":"AmazonML","gemini_1_5_pro_score":7.07,"service_alias":"Amazon Machine Learning"}
-{"provider":"AWS","service_name":"AmazonWorkSpacesThinClient","gemini_1_5_pro_score":7.07,"service_alias":"Amazon WorkSpaces Thin Client"}
 {"provider":"AWS","service_name":"CustomerProfiles","gemini_1_5_pro_score":7.07,"service_alias":"Amazon Connect Customer Profiles"}
-{"provider":"AWS","score":6.46,"service_name":"AmazonECR","gemini_1_5_pro_score":7.07,"service_alias":"Amazon EC2 Container Registry (ECR)"}
 {"provider":"AWS","service_name":"ContactCenterTelecomm","gemini_1_5_pro_score":7.07,"service_alias":"Contact Center Telecommunications (service sold by AMCS, LLC)"}
+{"provider":"AWS","service_name":"AmazonWorkSpacesThinClient","gemini_1_5_pro_score":7.07,"service_alias":"Amazon WorkSpaces Thin Client"}
+{"provider":"AWS","service_name":"AmazonML","gemini_1_5_pro_score":7.07,"service_alias":"Amazon Machine Learning"}
+{"provider":"AWS","score":6.46,"service_name":"AmazonECR","gemini_1_5_pro_score":7.07,"service_alias":"Amazon EC2 Container Registry (ECR)"}
 {"provider":"AWS","service_name":"ContactCenterTelecommZA","gemini_1_5_pro_score":7.07,"service_alias":"Contact Center Telecommunications South Africa"}
-{"provider":"AWS","service_name":"AmazonLookoutMetrics","gemini_1_5_pro_score":7.57,"service_alias":"Amazon Lookout for Metrics"}
-{"provider":"AWS","service_name":"AWSIoT1Click","gemini_1_5_pro_score":7.57,"service_alias":"AWS IoT 1 Click"}
+{"provider":"AWS","service_name":"ContactCenterTelecommKR","gemini_1_5_pro_score":7.07,"service_alias":"Contact Center Telecommunications Korea"}
 {"provider":"AWS","service_name":"AmazonLookoutEquipment","gemini_1_5_pro_score":7.57,"service_alias":"Amazon Lookout for Equipment"}
-{"provider":"AWS","score":8.54,"service_name":"AmazonTextract","gemini_1_5_pro_score":8.14,"service_alias":"Amazon Textract"}
-{"provider":"AWS","score":8.61,"service_name":"AmazonPolly","gemini_1_5_pro_score":8.14,"service_alias":"Amazon Polly"}
+{"provider":"AWS","service_name":"AWSIoT1Click","gemini_1_5_pro_score":7.57,"service_alias":"AWS IoT 1 Click"}
+{"provider":"AWS","service_name":"AmazonLookoutMetrics","gemini_1_5_pro_score":7.57,"service_alias":"Amazon Lookout for Metrics"}
 {"provider":"AWS","service_name":"AWSDeviceFarm","gemini_1_5_pro_score":8.14,"service_alias":"AWS Device Farm"}
-{"provider":"AWS","service_name":"IngestionService","gemini_1_5_pro_score":1.71,"service_alias":"AWS Import/Export"}
+{"provider":"AWS","score":8.61,"service_name":"AmazonPolly","gemini_1_5_pro_score":8.14,"service_alias":"Amazon Polly"}
+{"provider":"AWS","score":8.54,"service_name":"AmazonTextract","gemini_1_5_pro_score":8.14,"service_alias":"Amazon Textract"}
 {"provider":"AWS","score":2.5,"service_name":"AmazonVPC","gemini_1_5_pro_score":1.71,"service_alias":"Amazon Virtual Private Cloud"}
+{"provider":"AWS","service_name":"IngestionService","gemini_1_5_pro_score":1.71,"service_alias":"AWS Import/Export"}
 {"provider":"AWS","score":8.61,"service_name":"AmazonWorkDocs","gemini_1_5_pro_score":8.43,"service_alias":"Amazon WorkDocs"}
-{"provider":"AWS","service_name":"AmazonCodeWhisperer","gemini_1_5_pro_score":8.43,"service_alias":"Amazon CodeWhisperer"}
 {"provider":"AWS","service_name":"AWSWickr","gemini_1_5_pro_score":8.43,"service_alias":"AWS Wickr"}
+{"provider":"AWS","service_name":"AmazonCodeWhisperer","gemini_1_5_pro_score":8.43,"service_alias":"Amazon CodeWhisperer"}
 {"provider":"AWS","service_name":"AWSSupportEnterprise","gemini_1_5_pro_score":8.93,"service_alias":"AWS Support (Enterprise)"}
 {"provider":"AWS","service_name":"OpsWorks","gemini_1_5_pro_score":5.36,"service_alias":"AWS OpsWorks"}
 {"provider":"AWS","score":4.25,"service_name":"AmazonDocDB","gemini_1_5_pro_score":5.36,"service_alias":"Amazon DocumentDB (with MongoDB compatibility)"}
 {"provider":"AWS","service_name":"AWSTelcoNetworkBuilder","gemini_1_5_pro_score":5.36,"service_alias":"AWS Telco Network Builder"}
-{"provider":"AWS","service_name":"AWSEnterpriseOnRamp","gemini_1_5_pro_score":5.86,"service_alias":"AWS Enterprise On Ramp"}
 {"provider":"AWS","service_name":"AmazonInspector","gemini_1_5_pro_score":5.86,"service_alias":"Amazon Inspector"}
-{"provider":"AWS","score":7.93,"service_name":"AWSDirectoryService","gemini_1_5_pro_score":5.86,"service_alias":"AWS Directory Service"}
 {"provider":"AWS","score":4.93,"service_name":"AmazonEKS","gemini_1_5_pro_score":5.86,"service_alias":"Amazon Elastic Container Service for Kubernetes"}
-{"provider":"AWS","service_name":"AWSNetworkFirewall","gemini_1_5_pro_score":6.36,"service_alias":"AWS Network Firewall"}
-{"provider":"AWS","score":8.29,"service_name":"awswaf","gemini_1_5_pro_score":6.36,"service_alias":"AWS WAF"}
-{"provider":"AWS","score":8,"service_name":"AWSElementalMediaLive","gemini_1_5_pro_score":6.36,"service_alias":"AWS Elemental MediaLive"}
-{"provider":"AWS","service_name":"AWSFMS","gemini_1_5_pro_score":6.36,"service_alias":"AWS Firewall Manager"}
-{"provider":"AWS","score":7,"service_name":"AmazonSWF","gemini_1_5_pro_score":6.36,"service_alias":"Amazon Simple Workflow Service"}
+{"provider":"AWS","score":7.93,"service_name":"AWSDirectoryService","gemini_1_5_pro_score":5.86,"service_alias":"AWS Directory Service"}
+{"provider":"AWS","service_name":"AWSEnterpriseOnRamp","gemini_1_5_pro_score":5.86,"service_alias":"AWS Enterprise On Ramp"}
 {"provider":"AWS","service_name":"AWSM2","gemini_1_5_pro_score":6.36,"service_alias":"AWS Mainframe Modernization"}
+{"provider":"AWS","score":7,"service_name":"AmazonSWF","gemini_1_5_pro_score":6.36,"service_alias":"Amazon Simple Workflow Service"}
 {"provider":"AWS","service_name":"AWSTransfer","gemini_1_5_pro_score":6.36,"service_alias":"AWS Transfer Family"}
-{"provider":"AWS","service_name":"AmazonLocationService","gemini_1_5_pro_score":6.86,"service_alias":"Amazon Location Service"}
+{"provider":"AWS","score":8,"service_name":"AWSElementalMediaLive","gemini_1_5_pro_score":6.36,"service_alias":"AWS Elemental MediaLive"}
+{"provider":"AWS","score":8.29,"service_name":"awswaf","gemini_1_5_pro_score":6.36,"service_alias":"AWS WAF"}
+{"provider":"AWS","service_name":"AWSNetworkFirewall","gemini_1_5_pro_score":6.36,"service_alias":"AWS Network Firewall"}
+{"provider":"AWS","service_name":"AWSFMS","gemini_1_5_pro_score":6.36,"service_alias":"AWS Firewall Manager"}
 {"provider":"AWS","service_name":"AmazonOmics","gemini_1_5_pro_score":6.86,"service_alias":"Amazon Omics"}
-{"provider":"AWS","service_name":"AWSIoTAnalytics","gemini_1_5_pro_score":6.86,"service_alias":"AWS IoT Analytics"}
+{"provider":"AWS","service_name":"AWSIoT","gemini_1_5_pro_score":6.86,"service_alias":"AWS IoT"}
 {"provider":"AWS","service_name":"AWSIoTEvents","gemini_1_5_pro_score":6.86,"service_alias":"AWS IoT Events"}
 {"provider":"AWS","service_name":"AmazonKinesisVideo","gemini_1_5_pro_score":6.86,"service_alias":"Amazon Kinesis Video Streams"}
-{"provider":"AWS","service_name":"AWSLakeFormation","gemini_1_5_pro_score":6.86,"service_alias":"AWS Lake Formation"}
-{"provider":"AWS","score":7.79,"service_name":"AmazonKinesisFirehose","gemini_1_5_pro_score":6.86,"service_alias":"Amazon Kinesis Firehose"}
-{"provider":"AWS","service_name":"AmazonSecurityLake","gemini_1_5_pro_score":6.86,"service_alias":"Amazon Security Lake"}
-{"provider":"AWS","service_name":"AWSIoTFleetWise","gemini_1_5_pro_score":6.86,"service_alias":"AWS IoT FleetWise"}
-{"provider":"AWS","service_name":"AmazonTimestream","gemini_1_5_pro_score":6.86,"service_alias":"Amazon Timestream"}
-{"provider":"AWS","service_name":"AmazonKinesisAnalytics","gemini_1_5_pro_score":6.86,"service_alias":"Amazon Kinesis Analytics"}
-{"provider":"AWS","score":6.57,"service_name":"AmazonSageMaker","gemini_1_5_pro_score":6.86,"service_alias":"Amazon SageMaker"}
-{"provider":"AWS","service_name":"AWSIoT","gemini_1_5_pro_score":6.86,"service_alias":"AWS IoT"}
 {"provider":"AWS","service_name":"AWSCloudMap","gemini_1_5_pro_score":6.86,"service_alias":"AWS Cloud Map"}
+{"provider":"AWS","service_name":"AWSIoTAnalytics","gemini_1_5_pro_score":6.86,"service_alias":"AWS IoT Analytics"}
+{"provider":"AWS","service_name":"AmazonTimestream","gemini_1_5_pro_score":6.86,"service_alias":"Amazon Timestream"}
+{"provider":"AWS","score":6.57,"service_name":"AmazonSageMaker","gemini_1_5_pro_score":6.86,"service_alias":"Amazon SageMaker"}
+{"provider":"AWS","service_name":"AmazonLocationService","gemini_1_5_pro_score":6.86,"service_alias":"Amazon Location Service"}
 {"provider":"AWS","service_name":"AmazonA2I","gemini_1_5_pro_score":6.86,"service_alias":"Amazon Augmented AI"}
-{"provider":"AWS","service_name":"AmazonEI","gemini_1_5_pro_score":7.36,"service_alias":"Amazon Elastic Inference"}
-{"provider":"AWS","score":8.04,"service_name":"AmazonAppStream","gemini_1_5_pro_score":7.36,"service_alias":"Amazon AppStream"}
+{"provider":"AWS","score":7.79,"service_name":"AmazonKinesisFirehose","gemini_1_5_pro_score":6.86,"service_alias":"Amazon Kinesis Firehose"}
+{"provider":"AWS","service_name":"AmazonKinesisAnalytics","gemini_1_5_pro_score":6.86,"service_alias":"Amazon Kinesis Analytics"}
+{"provider":"AWS","service_name":"AWSIoTFleetWise","gemini_1_5_pro_score":6.86,"service_alias":"AWS IoT FleetWise"}
+{"provider":"AWS","service_name":"AmazonSecurityLake","gemini_1_5_pro_score":6.86,"service_alias":"Amazon Security Lake"}
+{"provider":"AWS","service_name":"AWSLakeFormation","gemini_1_5_pro_score":6.86,"service_alias":"AWS Lake Formation"}
 {"provider":"AWS","service_name":"AWSResilienceHub","gemini_1_5_pro_score":7.36,"service_alias":"AWS Resilience Hub"}
-{"provider":"AWS","service_name":"AmazonVerifiedPermissions","gemini_1_5_pro_score":7.36,"service_alias":"Amazon Verified Permissions"}
-{"provider":"AWS","score":6.21,"service_name":"AWSBackup","gemini_1_5_pro_score":7.36,"service_alias":"AWS Backup"}
-{"provider":"AWS","service_name":"AmazonQ","gemini_1_5_pro_score":7.36,"service_alias":"Amazon Q"}
-{"provider":"AWS","service_name":"AppFlow","gemini_1_5_pro_score":7.36,"service_alias":"Amazon AppFlow"}
+{"provider":"AWS","score":7.71,"service_name":"AWSCodeCommit","gemini_1_5_pro_score":7.36,"service_alias":"AWS CodeCommit"}
 {"provider":"AWS","score":5,"service_name":"AmazonSimpleDB","gemini_1_5_pro_score":7.36,"service_alias":"Amazon SimpleDB"}
+{"provider":"AWS","score":8.04,"service_name":"AmazonAppStream","gemini_1_5_pro_score":7.36,"service_alias":"Amazon AppStream"}
+{"provider":"AWS","service_name":"AppFlow","gemini_1_5_pro_score":7.36,"service_alias":"Amazon AppFlow"}
+{"provider":"AWS","service_name":"AmazonEI","gemini_1_5_pro_score":7.36,"service_alias":"Amazon Elastic Inference"}
+{"provider":"AWS","service_name":"AmazonQ","gemini_1_5_pro_score":7.36,"service_alias":"Amazon Q"}
+{"provider":"AWS","service_name":"AWSConfig","gemini_1_5_pro_score":7.36,"service_alias":"AWS Config"}
+{"provider":"AWS","score":6.21,"service_name":"AWSBackup","gemini_1_5_pro_score":7.36,"service_alias":"AWS Backup"}
+{"provider":"AWS","service_name":"AmazonVerifiedPermissions","gemini_1_5_pro_score":7.36,"service_alias":"Amazon Verified Permissions"}
 {"provider":"AWS","service_name":"AmazonDAX","gemini_1_5_pro_score":7.36,"service_alias":"DynamoDB Accelerator (DAX)"}
 {"provider":"AWS","score":7.89,"service_name":"AmazonWorkSpaces","gemini_1_5_pro_score":7.36,"service_alias":"Amazon WorkSpaces"}
-{"provider":"AWS","service_name":"AWSConfig","gemini_1_5_pro_score":7.36,"service_alias":"AWS Config"}
-{"provider":"AWS","score":7.71,"service_name":"AWSCodeCommit","gemini_1_5_pro_score":7.36,"service_alias":"AWS CodeCommit"}
-{"provider":"AWS","score":8,"service_name":"AmazonSumerian","gemini_1_5_pro_score":5.14}
-{"provider":"AWS","score":7,"service_name":"AWSAppSync","gemini_1_5_pro_score":6.14}
+{"provider":"AWS","score":8,"service_name":"AmazonSumerian","gemini_1_5_pro_score":5.14,"service_alias":"Amazon Sumerian"}
+{"provider":"AWS","score":7,"service_name":"AWSAppSync","gemini_1_5_pro_score":6.14,"service_alias":"AWS AppSync"}
 {"provider":"AWS","service_name":"AmazonCloudSearch","gemini_1_5_pro_score":6.14,"service_alias":"Amazon CloudSearch"}
 {"provider":"AWS","service_name":"AWSFIS","gemini_1_5_pro_score":6.64,"service_alias":"AWS Fault Injection Simulator"}
-{"provider":"AWS","score":8.43,"service_name":"AWSEvents","gemini_1_5_pro_score":6.64,"service_alias":"CloudWatch Events"}
 {"provider":"AWS","service_name":"AmazonMWAA","gemini_1_5_pro_score":6.64,"service_alias":"Amazon Managed Workflows for Apache Airflow"}
+{"provider":"AWS","score":8.43,"service_name":"AWSEvents","gemini_1_5_pro_score":6.64,"service_alias":"CloudWatch Events"}
 {"provider":"AWS","service_name":"AmazonLookoutVision","gemini_1_5_pro_score":7.14,"service_alias":"Amazon Lookout for Vision"}
 {"provider":"AWS","service_name":"AmazonCloudWatch","gemini_1_5_pro_score":7.14,"service_alias":"AmazonCloudWatch"}
+{"provider":"AWS","service_name":"AWSIAMAccessAnalyzer","gemini_1_5_pro_score":7.64,"service_alias":"AWS Identity and Access Management Access Analyzer"}
 {"provider":"AWS","score":8.5,"service_name":"AWSSecretsManager","gemini_1_5_pro_score":7.64,"service_alias":"AWS Secrets Manager"}
 {"provider":"AWS","service_name":"AmazonWorkLink","gemini_1_5_pro_score":7.64,"service_alias":"Amazon WorkLink"}
 {"provider":"AWS","score":9,"service_name":"AWSCertificateManager","gemini_1_5_pro_score":7.64,"service_alias":"AWS Certificate Manager"}
-{"provider":"AWS","service_name":"AWSIAMAccessAnalyzer","gemini_1_5_pro_score":7.64,"service_alias":"AWS Identity and Access Management Access Analyzer"}
-{"provider":"AWS","service_name":"mobileanalytics","gemini_1_5_pro_score":8.07,"service_alias":"Amazon Mobile Analytics"}
-{"provider":"AWS","score":8.3,"service_name":"AmazonSES","gemini_1_5_pro_score":8.07,"service_alias":"Amazon Simple Email Service"}
-{"provider":"AWS","service_name":"comprehendmedical","gemini_1_5_pro_score":8.07,"service_alias":"Comprehend Medical"}
-{"provider":"AWS","service_name":"AmazonConnectVoiceID","gemini_1_5_pro_score":8.07,"service_alias":"Amazon Connect Voice ID"}
-{"provider":"AWS","service_name":"AWSWisdom","gemini_1_5_pro_score":8.07,"service_alias":"Amazon Connect Wisdom"}
 {"provider":"AWS","service_name":"AmazonRekognition","gemini_1_5_pro_score":8.07,"service_alias":"Amazon Rekognition"}
+{"provider":"AWS","score":8.3,"service_name":"AmazonSES","gemini_1_5_pro_score":8.07,"service_alias":"Amazon Simple Email Service"}
 {"provider":"AWS","service_name":"AmazonDetective","gemini_1_5_pro_score":8.07,"service_alias":"Amazon Detective"}
-{"provider":"AWS","score":8.25,"service_name":"comprehend","gemini_1_5_pro_score":8.07,"service_alias":"Amazon Comprehend"}
+{"provider":"AWS","service_name":"comprehendmedical","gemini_1_5_pro_score":8.07,"service_alias":"Comprehend Medical"}
+{"provider":"AWS","service_name":"mobileanalytics","gemini_1_5_pro_score":8.07,"service_alias":"Amazon Mobile Analytics"}
+{"provider":"AWS","service_name":"AWSAppFabric","gemini_1_5_pro_score":8.07,"service_alias":"AWS AppFabric"}
 {"provider":"AWS","service_name":"A4B","gemini_1_5_pro_score":8.07,"service_alias":"Alexa for Business"}
 {"provider":"AWS","service_name":"AlexaWebInfoService","gemini_1_5_pro_score":8.07,"service_alias":"Alexa Web Information Service"}
-{"provider":"AWS","service_name":"AWSAppFabric","gemini_1_5_pro_score":8.07,"service_alias":"AWS AppFabric"}
+{"provider":"AWS","service_name":"AmazonConnectVoiceID","gemini_1_5_pro_score":8.07,"service_alias":"Amazon Connect Voice ID"}
+{"provider":"AWS","score":8.25,"service_name":"comprehend","gemini_1_5_pro_score":8.07,"service_alias":"Amazon Comprehend"}
+{"provider":"AWS","service_name":"AWSWisdom","gemini_1_5_pro_score":8.07,"service_alias":"Amazon Connect Wisdom"}
 {"provider":"AWS","service_name":"IngestionServiceSnowball","gemini_1_5_pro_score":1.79,"service_alias":"AWS Import/Export Snowball"}
-{"provider":"AWS","service_name":"AmazonChimeCallMeAMCS","gemini_1_5_pro_score":4.93}
+{"provider":"AWS","service_name":"AmazonChimeCallMeAMCS","gemini_1_5_pro_score":4.93,"service_alias":"Contact Center Telecommunications (service sold by AMCS, LLC)"}
 {"provider":"AWS","service_name":"AWSCloudWAN","gemini_1_5_pro_score":5.43,"service_alias":"AWS Cloud WAN"}
 {"provider":"AWS","score":8.61,"service_name":"AmazonRDS","gemini_1_5_pro_score":5.93,"service_alias":"Amazon Relational Database Service"}
 {"provider":"AWS","score":5.36,"service_name":"AmazonRedshift","gemini_1_5_pro_score":5.93,"service_alias":"Amazon Redshift"}
 {"provider":"AWS","score":7.61,"service_name":"AWSAmplify","gemini_1_5_pro_score":5.93,"service_alias":"AWS Amplify"}
 {"provider":"AWS","score":6.54,"service_name":"AWSGlobalAccelerator","gemini_1_5_pro_score":6.43,"service_alias":"AWS Global Accelerator"}
-{"provider":"AWS","service_name":"AmazonGameLift","gemini_1_5_pro_score":6.43,"service_alias":"Amazon GameLift"}
-{"provider":"AWS","service_name":"AmazonMemoryDB","gemini_1_5_pro_score":6.43,"service_alias":"Amazon MemoryDB"}
-{"provider":"AWS","service_name":"AWSRoboMaker","gemini_1_5_pro_score":6.43,"service_alias":"AWS RoboMaker"}
-{"provider":"AWS","service_name":"IoTDeviceManagement","gemini_1_5_pro_score":6.43,"service_alias":"AWS IoT Device Management"}
-{"provider":"AWS","score":7,"service_name":"AWSServiceCatalog","gemini_1_5_pro_score":6.43,"service_alias":"AWS Service Catalog"}
 {"provider":"AWS","score":7.14,"service_name":"AmazonDynamoDB","gemini_1_5_pro_score":6.43,"service_alias":"Amazon DynamoDB"}
+{"provider":"AWS","service_name":"AmazonGameLift","gemini_1_5_pro_score":6.43,"service_alias":"Amazon GameLift"}
+{"provider":"AWS","service_name":"AWSRoboMaker","gemini_1_5_pro_score":6.43,"service_alias":"AWS RoboMaker"}
 {"provider":"AWS","service_name":"AmazonCloudDirectory","gemini_1_5_pro_score":6.43,"service_alias":"Amazon Cloud Directory"}
 {"provider":"AWS","service_name":"AmazonMCS","gemini_1_5_pro_score":6.43,"service_alias":"Amazon Keyspaces (for Apache Cassandra)"}
-{"provider":"AWS","score":6.11,"service_name":"AmazonKinesis","gemini_1_5_pro_score":6.43,"service_alias":"Amazon Kinesis"}
+{"provider":"AWS","service_name":"IoTDeviceManagement","gemini_1_5_pro_score":6.43,"service_alias":"AWS IoT Device Management"}
 {"provider":"AWS","service_name":"AmazonQLDB","gemini_1_5_pro_score":6.43,"service_alias":"Amazon Quantum Ledger Database"}
+{"provider":"AWS","service_name":"AmazonMemoryDB","gemini_1_5_pro_score":6.43,"service_alias":"Amazon MemoryDB"}
+{"provider":"AWS","score":6.11,"service_name":"AmazonKinesis","gemini_1_5_pro_score":6.43,"service_alias":"Amazon Kinesis"}
+{"provider":"AWS","score":7,"service_name":"AWSServiceCatalog","gemini_1_5_pro_score":6.43,"service_alias":"AWS Service Catalog"}
 {"provider":"AWS","service_name":"AmazonHealthLake","gemini_1_5_pro_score":6.93,"service_alias":"Amazon HealthLake"}
-{"provider":"AWS","service_name":"CodeCatalyst","gemini_1_5_pro_score":6.93,"service_alias":"CodeCatalyst"}
 {"provider":"AWS","score":7.57,"service_name":"AWSQueueService","gemini_1_5_pro_score":6.93,"service_alias":"Amazon Simple Queue Service"}
-{"provider":"AWS","score":8.02,"service_name":"AmazonSNS","gemini_1_5_pro_score":6.93,"service_alias":"Amazon Simple Notification Service"}
-{"provider":"AWS","score":6.46,"service_name":"AmazonECRPublic","gemini_1_5_pro_score":6.93,"service_alias":"Amazon Elastic Container Registry Public"}
-{"provider":"AWS","service_name":"AWSGlueElasticViews","gemini_1_5_pro_score":6.93,"service_alias":"AWS Glue Elastic Views"}
 {"provider":"AWS","score":2.5,"service_name":"AmazonDataZone","gemini_1_5_pro_score":6.93,"service_alias":"Amazon DataZone"}
-{"provider":"AWS","service_name":"AWSEntityResolution","gemini_1_5_pro_score":7.43,"service_alias":"AWS Entity Resolution"}
-{"provider":"AWS","score":8.21,"service_name":"AmazonInspectorV2","gemini_1_5_pro_score":7.43,"service_alias":"Amazon Inspector"}
-{"provider":"AWS","service_name":"AWSDataExchange","gemini_1_5_pro_score":7.43,"service_alias":"AWS Data Exchange"}
-{"provider":"AWS","score":8.45,"service_name":"AmazonPinpoint","gemini_1_5_pro_score":7.43,"service_alias":"Amazon Pinpoint"}
-{"provider":"AWS","score":7.11,"service_name":"CodeBuild","gemini_1_5_pro_score":7.43,"service_alias":"CodeBuild"}
-{"provider":"AWS","service_name":"AWSBillingConductor","gemini_1_5_pro_score":7.43,"service_alias":"AWS Billing Conductor"}
+{"provider":"AWS","score":8.02,"service_name":"AmazonSNS","gemini_1_5_pro_score":6.93,"service_alias":"Amazon Simple Notification Service"}
+{"provider":"AWS","service_name":"CodeCatalyst","gemini_1_5_pro_score":6.93,"service_alias":"CodeCatalyst"}
+{"provider":"AWS","service_name":"AWSGlueElasticViews","gemini_1_5_pro_score":6.93,"service_alias":"AWS Glue Elastic Views"}
+{"provider":"AWS","score":6.46,"service_name":"AmazonECRPublic","gemini_1_5_pro_score":6.93,"service_alias":"Amazon Elastic Container Registry Public"}
 {"provider":"AWS","score":7.64,"service_name":"AWSXRay","gemini_1_5_pro_score":7.43,"service_alias":"AWS X-Ray"}
-{"provider":"AWS","service_name":"AmazonIVSChat","gemini_1_5_pro_score":7.43,"service_alias":"Amazon IVS Chat"}
 {"provider":"AWS","service_name":"AmazonChimeVoiceConnector","gemini_1_5_pro_score":7.43,"service_alias":"Amazon Chime Voice Connector a service sold by AMCS LLC"}
-{"provider":"AWS","score":8.14,"service_name":"AWSBudgets","gemini_1_5_pro_score":7.43,"service_alias":"AWS Budgets"}
+{"provider":"AWS","service_name":"AWSEntityResolution","gemini_1_5_pro_score":7.43,"service_alias":"AWS Entity Resolution"}
 {"provider":"AWS","service_name":"AmazonChimeCallMe","gemini_1_5_pro_score":7.43,"service_alias":"Amazon Chime Call Me"}
 {"provider":"AWS","score":7.77,"service_name":"AmazonAthena","gemini_1_5_pro_score":7.43,"service_alias":"Amazon Athena"}
-{"provider":"AWS","service_name":"AmazonCognitoSync","gemini_1_5_pro_score":7.93,"service_alias":"Amazon Cognito Sync"}
+{"provider":"AWS","service_name":"AWSDataExchange","gemini_1_5_pro_score":7.43,"service_alias":"AWS Data Exchange"}
+{"provider":"AWS","score":8.14,"service_name":"AWSBudgets","gemini_1_5_pro_score":7.43,"service_alias":"AWS Budgets"}
+{"provider":"AWS","service_name":"AmazonIVSChat","gemini_1_5_pro_score":7.43,"service_alias":"Amazon IVS Chat"}
+{"provider":"AWS","score":8.45,"service_name":"AmazonPinpoint","gemini_1_5_pro_score":7.43,"service_alias":"Amazon Pinpoint"}
+{"provider":"AWS","score":7.11,"service_name":"CodeBuild","gemini_1_5_pro_score":7.43,"service_alias":"CodeBuild"}
+{"provider":"AWS","score":8.21,"service_name":"AmazonInspectorV2","gemini_1_5_pro_score":7.43,"service_alias":"Amazon Inspector"}
+{"provider":"AWS","service_name":"AWSBillingConductor","gemini_1_5_pro_score":7.43,"service_alias":"AWS Billing Conductor"}
 {"provider":"AWS","service_name":"ContactLensAmazonConnect","gemini_1_5_pro_score":7.93,"service_alias":"Contact Lens for Amazon Connect"}
+{"provider":"AWS","service_name":"AmazonCognitoSync","gemini_1_5_pro_score":7.93,"service_alias":"Amazon Cognito Sync"}
 {"provider":"AWS","service_name":"AmazonChimeFeatures","gemini_1_5_pro_score":8.36,"service_alias":"Amazon Chime Features"}
 {"provider":"AWS","service_name":"AmazonChimeDialin","gemini_1_5_pro_score":8.36,"service_alias":"Amazon Chime Dialin"}
 {"provider":"AWS","service_name":"AlexaTopSites","gemini_1_5_pro_score":8.36,"service_alias":"Alexa Top Sites"}
 {"provider":"AWS","score":2.89,"service_name":"AmazonLightsail","gemini_1_5_pro_score":4.71,"service_alias":"Amazon Lightsail"}
-{"provider":"AWS","score":4.21,"service_name":"AWSStorageGateway","gemini_1_5_pro_score":5.21,"service_alias":"AWS Storage Gateway"}
-{"provider":"AWS","service_name":"AWSGreengrass","gemini_1_5_pro_score":5.21,"service_alias":"AWS Greengrass"}
 {"provider":"AWS","score":5.7,"service_name":"datapipeline","gemini_1_5_pro_score":5.21,"service_alias":"AWS Data Pipeline"}
+{"provider":"AWS","service_name":"AWSGreengrass","gemini_1_5_pro_score":5.21,"service_alias":"AWS Greengrass"}
+{"provider":"AWS","score":4.21,"service_name":"AWSStorageGateway","gemini_1_5_pro_score":5.21,"service_alias":"AWS Storage Gateway"}
 {"provider":"AWS","service_name":"SimSpaceWeaver","gemini_1_5_pro_score":5.71,"service_alias":"AWS SimSpace Weaver"}
 {"provider":"AWS","service_name":"AWSGroundStation","gemini_1_5_pro_score":5.71,"service_alias":"AWS Ground Station"}
-{"provider":"AWS","score":5.86,"service_name":"AmazonElastiCache","gemini_1_5_pro_score":6.21,"service_alias":"Amazon ElastiCache"}
 {"provider":"AWS","score":5.75,"service_name":"AmazonMQ","gemini_1_5_pro_score":6.21,"service_alias":"Amazon MQ"}
-{"provider":"AWS","service_name":"AmazonManagedBlockchain","gemini_1_5_pro_score":6.21,"service_alias":"Amazon Managed Blockchain"}
+{"provider":"AWS","score":5.86,"service_name":"AmazonElastiCache","gemini_1_5_pro_score":6.21,"service_alias":"Amazon ElastiCache"}
+{"provider":"AWS","service_name":"AWSMediaConnect","gemini_1_5_pro_score":6.21,"service_alias":"AWS Elemental MediaConnect"}
 {"provider":"AWS","score":5.84,"service_name":"AmazonS3","gemini_1_5_pro_score":6.21,"service_alias":"Amazon Simple Storage Service"}
 {"provider":"AWS","service_name":"AmazonNeptune","gemini_1_5_pro_score":6.21,"service_alias":"Amazon Neptune"}
-{"provider":"AWS","service_name":"AWSMediaConnect","gemini_1_5_pro_score":6.21,"service_alias":"AWS Elemental MediaConnect"}
+{"provider":"AWS","service_name":"AmazonManagedBlockchain","gemini_1_5_pro_score":6.21,"service_alias":"Amazon Managed Blockchain"}
+{"provider":"AWS","score":7.14,"service_name":"AWSDatabaseMigrationSvc","gemini_1_5_pro_score":6.71,"service_alias":"AWS Database Migration Service"}
+{"provider":"AWS","score":8,"service_name":"awskms","gemini_1_5_pro_score":6.71,"service_alias":"AWS Key Management Service"}
 {"provider":"AWS","score":7.23,"service_name":"AWSGlue","gemini_1_5_pro_score":6.71,"service_alias":"AWS Glue"}
 {"provider":"AWS","service_name":"AmazonPrometheus","gemini_1_5_pro_score":6.71,"service_alias":"Amazon Managed Service for Prometheus"}
-{"provider":"AWS","service_name":"AmazonMSK","gemini_1_5_pro_score":6.71,"service_alias":"Amazon Managed Streaming for Apache Kafka"}
-{"provider":"AWS","score":8,"service_name":"awskms","gemini_1_5_pro_score":6.71,"service_alias":"AWS Key Management Service"}
-{"provider":"AWS","service_name":"AWSStorageGatewayDeepArchive","gemini_1_5_pro_score":6.71,"service_alias":"AWS Storage Gateway Deep Archive"}
-{"provider":"AWS","score":7.14,"service_name":"AWSDatabaseMigrationSvc","gemini_1_5_pro_score":6.71,"service_alias":"AWS Database Migration Service"}
 {"provider":"AWS","service_name":"AWSElementalMediaStore","gemini_1_5_pro_score":6.71,"service_alias":"AWS Elemental MediaStore"}
+{"provider":"AWS","service_name":"AWSStorageGatewayDeepArchive","gemini_1_5_pro_score":6.71,"service_alias":"AWS Storage Gateway Deep Archive"}
+{"provider":"AWS","service_name":"AmazonMSK","gemini_1_5_pro_score":6.71,"service_alias":"Amazon Managed Streaming for Apache Kafka"}
 {"provider":"AWS","service_name":"AmazonFinSpace","gemini_1_5_pro_score":7.21,"service_alias":"Amazon FinSpace"}
-{"provider":"AWS","service_name":"AWSElementalMediaPackage","gemini_1_5_pro_score":7.21,"service_alias":"AWS Elemental MediaPackage"}
-{"provider":"AWS","service_name":"AWSElementalMediaTailor","gemini_1_5_pro_score":7.21,"service_alias":"AWS Elemental MediaTailor"}
-{"provider":"AWS","service_name":"AmazonWAM","gemini_1_5_pro_score":7.21,"service_alias":"Amazon WorkSpaces Application Manager"}
 {"provider":"AWS","score":5.37,"service_name":"AWSSystemsManager","gemini_1_5_pro_score":7.21,"service_alias":"AWS Systems Manager"}
-{"provider":"AWS","service_name":"AmazonMacie","gemini_1_5_pro_score":7.71,"service_alias":"Amazon Macie"}
-{"provider":"AWS","service_name":"AWSCloudTrail","gemini_1_5_pro_score":7.71,"service_alias":"AWS CloudTrail"}
+{"provider":"AWS","service_name":"AmazonWAM","gemini_1_5_pro_score":7.21,"service_alias":"Amazon WorkSpaces Application Manager"}
+{"provider":"AWS","service_name":"AWSElementalMediaTailor","gemini_1_5_pro_score":7.21,"service_alias":"AWS Elemental MediaTailor"}
+{"provider":"AWS","service_name":"AWSElementalMediaPackage","gemini_1_5_pro_score":7.21,"service_alias":"AWS Elemental MediaPackage"}
 {"provider":"AWS","service_name":"AmazonGuardDuty","gemini_1_5_pro_score":7.71,"service_alias":"Amazon GuardDuty"}
+{"provider":"AWS","service_name":"AWSCloudTrail","gemini_1_5_pro_score":7.71,"service_alias":"AWS CloudTrail"}
+{"provider":"AWS","service_name":"AmazonMacie","gemini_1_5_pro_score":7.71,"service_alias":"Amazon Macie"}
 {"provider":"AWS","service_name":"SnowballExtraDays","gemini_1_5_pro_score":1.43,"service_alias":"AWS Snowball Extra Days"}
-{"provider":"AWS","score":7.79,"service_name":"AmazonQuickSight","gemini_1_5_pro_score":8.21,"service_alias":"Amazon QuickSight"}
-{"provider":"AWS","score":7.46,"service_name":"AWSAppRunner","gemini_1_5_pro_score":8.21,"service_alias":"AWS App Runner"}
-{"provider":"AWS","service_name":"AmazonConnect","gemini_1_5_pro_score":8.21,"service_alias":"Amazon Connect"}
 {"provider":"AWS","score":8.64,"service_name":"AWSLambda","gemini_1_5_pro_score":8.21,"service_alias":"AWS Lambda"}
+{"provider":"AWS","score":7.46,"service_name":"AWSAppRunner","gemini_1_5_pro_score":8.21,"service_alias":"AWS App Runner"}
+{"provider":"AWS","score":7.79,"service_name":"AmazonQuickSight","gemini_1_5_pro_score":8.21,"service_alias":"Amazon QuickSight"}
+{"provider":"AWS","service_name":"AmazonConnect","gemini_1_5_pro_score":8.21,"service_alias":"Amazon Connect"}
 {"provider":"AWS","service_name":"AWSShield","gemini_1_5_pro_score":8.71,"service_alias":"AWS Shield"}
 {"provider":"AWS","score":8,"service_name":"AWSCostExplorer","gemini_1_5_pro_score":8.71,"service_alias":"AWS Cost Explorer"}
 {"provider":"GCP","score":7.57,"service_name":"Stackdriver Monitoring"}
 {"provider":"GCP","score":5.39,"service_name":"Cloud DNS","gemini_1_5_pro_score":6}
 {"provider":"GCP","service_name":"Datastream","gemini_1_5_pro_score":6}
 {"provider":"GCP","service_name":"Cloud Composer","gemini_1_5_pro_score":6.5}
-{"provider":"GCP","service_name":"Cloud TPU","gemini_1_5_pro_score":6.5}
-{"provider":"GCP","service_name":"Anthos Policy Controller","gemini_1_5_pro_score":6.5}
 {"provider":"GCP","service_name":"Zync","gemini_1_5_pro_score":6.5}
+{"provider":"GCP","service_name":"Anthos Policy Controller","gemini_1_5_pro_score":6.5}
+{"provider":"GCP","service_name":"Cloud TPU","gemini_1_5_pro_score":6.5}
 {"provider":"GCP","service_name":"Container Registry Vulnerability Scanning","gemini_1_5_pro_score":7}
-{"provider":"GCP","service_name":"Workload Manager","gemini_1_5_pro_score":7}
 {"provider":"GCP","service_name":"Assured Workloads","gemini_1_5_pro_score":7}
 {"provider":"GCP","service_name":"Spectrum SAS","gemini_1_5_pro_score":7}
-{"provider":"GCP","service_name":"Vertex AI Search","gemini_1_5_pro_score":7.5}
+{"provider":"GCP","service_name":"Workload Manager","gemini_1_5_pro_score":7}
 {"provider":"GCP","service_name":"On-Demand Scanning","gemini_1_5_pro_score":7.5}
-{"provider":"GCP","service_name":"Cloud Text-to-Speech API","gemini_1_5_pro_score":8}
-{"provider":"GCP","service_name":"Cloud Speech API","gemini_1_5_pro_score":8}
-{"provider":"GCP","service_name":"Prediction","gemini_1_5_pro_score":8}
+{"provider":"GCP","service_name":"Vertex AI Search","gemini_1_5_pro_score":7.5}
 {"provider":"GCP","service_name":"Firebase Realtime Database","gemini_1_5_pro_score":8}
-{"provider":"GCP","score":8.25,"service_name":"Cloud Functions","gemini_1_5_pro_score":8}
 {"provider":"GCP","service_name":"Cloud Talent Solution","gemini_1_5_pro_score":8}
-{"provider":"GCP","service_name":"Speaker ID","gemini_1_5_pro_score":8}
-{"provider":"GCP","service_name":"Video Stitcher API","gemini_1_5_pro_score":8}
-{"provider":"GCP","service_name":"Cloud Optimization","gemini_1_5_pro_score":8}
 {"provider":"GCP","service_name":"Cloud Vision API","gemini_1_5_pro_score":8}
+{"provider":"GCP","service_name":"Cloud Optimization","gemini_1_5_pro_score":8}
+{"provider":"GCP","service_name":"Video Stitcher API","gemini_1_5_pro_score":8}
+{"provider":"GCP","service_name":"Prediction","gemini_1_5_pro_score":8}
+{"provider":"GCP","service_name":"Cloud Speech API","gemini_1_5_pro_score":8}
+{"provider":"GCP","service_name":"Speaker ID","gemini_1_5_pro_score":8}
+{"provider":"GCP","score":8.25,"service_name":"Cloud Functions","gemini_1_5_pro_score":8}
+{"provider":"GCP","service_name":"Cloud Text-to-Speech API","gemini_1_5_pro_score":8}
 {"provider":"GCP","service_name":"Firebase Auth","gemini_1_5_pro_score":8.5}
 {"provider":"GCP","service_name":"Enterprise Agreement","gemini_1_5_pro_score":1}
-{"provider":"GCP","service_name":"Cloud Document AI API","gemini_1_5_pro_score":8.29}
-{"provider":"GCP","service_name":"Transcoder API","gemini_1_5_pro_score":8.29}
-{"provider":"GCP","score":8.21,"service_name":"Cloud Run","gemini_1_5_pro_score":8.29}
 {"provider":"GCP","service_name":"Cloud Video Intelligence API","gemini_1_5_pro_score":8.29}
+{"provider":"GCP","score":8.21,"service_name":"Cloud Run","gemini_1_5_pro_score":8.29}
 {"provider":"GCP","service_name":"Cloud Media Translation API","gemini_1_5_pro_score":8.29}
+{"provider":"GCP","service_name":"Cloud Document AI API","gemini_1_5_pro_score":8.29}
 {"provider":"GCP","service_name":"Translate","gemini_1_5_pro_score":8.29}
+{"provider":"GCP","service_name":"Transcoder API","gemini_1_5_pro_score":8.29}
 {"provider":"GCP","service_name":"Confidential Computing","gemini_1_5_pro_score":4.29}
 {"provider":"GCP","service_name":"Integration Connectors","gemini_1_5_pro_score":5.79}
-{"provider":"GCP","service_name":"Cloud Spanner","gemini_1_5_pro_score":5.79}
 {"provider":"GCP","service_name":"Apigee Developer Portal Kickstart","gemini_1_5_pro_score":5.79}
+{"provider":"GCP","service_name":"Cloud Spanner","gemini_1_5_pro_score":5.79}
 {"provider":"GCP","service_name":"NetApp Volumes","gemini_1_5_pro_score":6.29}
-{"provider":"GCP","service_name":"Cloud Data Fusion","gemini_1_5_pro_score":6.79}
 {"provider":"GCP","service_name":"Transcode API","gemini_1_5_pro_score":6.79}
+{"provider":"GCP","service_name":"Cloud Data Fusion","gemini_1_5_pro_score":6.79}
 {"provider":"GCP","service_name":"Certificate Manager","gemini_1_5_pro_score":6.79}
 {"provider":"GCP","service_name":"BigQuery Reservation API","gemini_1_5_pro_score":6.79}
-{"provider":"GCP","service_name":"Cloud Filestore","gemini_1_5_pro_score":7.29}
-{"provider":"GCP","service_name":"Identity Platform","gemini_1_5_pro_score":7.29}
 {"provider":"GCP","service_name":"Backup for GKE","gemini_1_5_pro_score":7.29}
 {"provider":"GCP","service_name":"Data Catalog","gemini_1_5_pro_score":7.29}
+{"provider":"GCP","service_name":"Identity Platform","gemini_1_5_pro_score":7.29}
+{"provider":"GCP","service_name":"Cloud Filestore","gemini_1_5_pro_score":7.29}
 {"provider":"GCP","service_name":"Maps SDK for Unity","gemini_1_5_pro_score":7.79}
 {"provider":"GCP","service_name":"Google Maps Mobile SDK","gemini_1_5_pro_score":7.79}
 {"provider":"GCP","service_name":"GKE Enterprise / GDC","gemini_1_5_pro_score":5.07}
-{"provider":"GCP","service_name":"MultiClusterIngress","gemini_1_5_pro_score":6.07}
 {"provider":"GCP","service_name":"Actifio GO","gemini_1_5_pro_score":6.07}
-{"provider":"GCP","service_name":"Backup and DR Service","gemini_1_5_pro_score":6.07}
 {"provider":"GCP","score":5.77,"service_name":"Kubernetes Engine","gemini_1_5_pro_score":6.07}
-{"provider":"GCP","service_name":"Binary Authorization","gemini_1_5_pro_score":6.57}
-{"provider":"GCP","service_name":"Financial Services","gemini_1_5_pro_score":6.57}
+{"provider":"GCP","service_name":"Backup and DR Service","gemini_1_5_pro_score":6.07}
+{"provider":"GCP","service_name":"MultiClusterIngress","gemini_1_5_pro_score":6.07}
 {"provider":"GCP","service_name":"Cloud Memorystore for Redis","gemini_1_5_pro_score":6.57}
+{"provider":"GCP","service_name":"Financial Services","gemini_1_5_pro_score":6.57}
 {"provider":"GCP","service_name":"Cloud Bigtable","gemini_1_5_pro_score":6.57}
+{"provider":"GCP","service_name":"Binary Authorization","gemini_1_5_pro_score":6.57}
 {"provider":"GCP","service_name":"Telecom Subscriber Insights","gemini_1_5_pro_score":7.07}
-{"provider":"GCP","score":7.57,"service_name":"Artifact Registry","gemini_1_5_pro_score":7.07}
-{"provider":"GCP","service_name":"Apigee","gemini_1_5_pro_score":7.07}
-{"provider":"GCP","service_name":"Chronicle","gemini_1_5_pro_score":7.07}
 {"provider":"GCP","score":7.95,"service_name":"Cloud Pub/Sub","gemini_1_5_pro_score":7.07}
-{"provider":"GCP","service_name":"Cloud Contact Center AI Platform","gemini_1_5_pro_score":7.57}
+{"provider":"GCP","service_name":"Chronicle","gemini_1_5_pro_score":7.07}
+{"provider":"GCP","service_name":"Apigee","gemini_1_5_pro_score":7.07}
+{"provider":"GCP","score":7.57,"service_name":"Artifact Registry","gemini_1_5_pro_score":7.07}
 {"provider":"GCP","service_name":"Cloud Data Loss Prevention","gemini_1_5_pro_score":7.57}
+{"provider":"GCP","service_name":"Cloud Contact Center AI Platform","gemini_1_5_pro_score":7.57}
 {"provider":"GCP","service_name":"Google Quickstart Simple pre-configured Debian VM","gemini_1_5_pro_score":2.29}
 {"provider":"GCP","service_name":"VMware Engine","gemini_1_5_pro_score":2.79}
 {"provider":"GCP","service_name":"Gemini API","gemini_1_5_pro_score":8.43}
@@ -301,198 +301,198 @@
 {"provider":"GCP","service_name":"AlloyDB","gemini_1_5_pro_score":5.36}
 {"provider":"GCP","score":5.21,"service_name":"Cloud SQL","gemini_1_5_pro_score":5.86}
 {"provider":"GCP","service_name":"Blockchain Node Engine","gemini_1_5_pro_score":5.86}
-{"provider":"GCP","score":2.57,"service_name":"VM Manager","gemini_1_5_pro_score":6.36}
-{"provider":"GCP","service_name":"Genomics","gemini_1_5_pro_score":6.36}
 {"provider":"GCP","service_name":"Datashare","gemini_1_5_pro_score":6.36}
 {"provider":"GCP","service_name":"Vertex AI","gemini_1_5_pro_score":6.36}
+{"provider":"GCP","score":2.57,"service_name":"VM Manager","gemini_1_5_pro_score":6.36}
+{"provider":"GCP","service_name":"Genomics","gemini_1_5_pro_score":6.36}
 {"provider":"GCP","service_name":"Application Integration","gemini_1_5_pro_score":6.86}
-{"provider":"GCP","score":4.07,"service_name":"Cloud Storage","gemini_1_5_pro_score":7.36}
 {"provider":"GCP","score":8.14,"service_name":"Source Repository","gemini_1_5_pro_score":7.36}
+{"provider":"GCP","score":4.07,"service_name":"Cloud Storage","gemini_1_5_pro_score":7.36}
 {"provider":"GCP","score":7.5,"service_name":"BigQuery Storage API","gemini_1_5_pro_score":7.36}
-{"provider":"GCP","service_name":"Live Stream API","gemini_1_5_pro_score":7.86}
-{"provider":"GCP","service_name":"Cloud Document API","gemini_1_5_pro_score":7.86}
 {"provider":"GCP","service_name":"Firebase Test Lab","gemini_1_5_pro_score":7.86}
-{"provider":"GCP","score":7.91,"service_name":"Cloud Scheduler","gemini_1_5_pro_score":7.86}
+{"provider":"GCP","service_name":"Live Stream API","gemini_1_5_pro_score":7.86}
 {"provider":"GCP","service_name":"Vertex AI Vision","gemini_1_5_pro_score":7.86}
-{"provider":"GCP","service_name":"Earth Engine","gemini_1_5_pro_score":7.86}
-{"provider":"GCP","score":8.61,"service_name":"Secret Manager","gemini_1_5_pro_score":7.86}
-{"provider":"GCP","service_name":"Recommendations AI","gemini_1_5_pro_score":7.86}
 {"provider":"GCP","service_name":"Cloud AutoML","gemini_1_5_pro_score":7.86}
+{"provider":"GCP","service_name":"Recommendations AI","gemini_1_5_pro_score":7.86}
+{"provider":"GCP","service_name":"Cloud Document API","gemini_1_5_pro_score":7.86}
+{"provider":"GCP","service_name":"Earth Engine","gemini_1_5_pro_score":7.86}
+{"provider":"GCP","score":7.91,"service_name":"Cloud Scheduler","gemini_1_5_pro_score":7.86}
+{"provider":"GCP","score":8.61,"service_name":"Secret Manager","gemini_1_5_pro_score":7.86}
 {"provider":"GCP","service_name":"Transfer Appliance","gemini_1_5_pro_score":5.14}
 {"provider":"GCP","score":7.71,"service_name":"Cloud Tasks","gemini_1_5_pro_score":6.14}
-{"provider":"GCP","score":7.5,"service_name":"Cloud Logging","gemini_1_5_pro_score":6.64}
-{"provider":"GCP","score":5.93,"service_name":"Cloud Dataflow","gemini_1_5_pro_score":6.64}
-{"provider":"GCP","service_name":"Dataproc Metastore","gemini_1_5_pro_score":6.64}
 {"provider":"GCP","service_name":"Cloud NGFW Enterprise","gemini_1_5_pro_score":6.64}
+{"provider":"GCP","score":7.5,"service_name":"Cloud Logging","gemini_1_5_pro_score":6.64}
 {"provider":"GCP","service_name":"Cloud Memorystore for Memcached","gemini_1_5_pro_score":6.64}
-{"provider":"GCP","service_name":"Immersive Stream for XR","gemini_1_5_pro_score":7.14}
+{"provider":"GCP","service_name":"Dataproc Metastore","gemini_1_5_pro_score":6.64}
+{"provider":"GCP","score":5.93,"service_name":"Cloud Dataflow","gemini_1_5_pro_score":6.64}
 {"provider":"GCP","service_name":"Cloud Workstations","gemini_1_5_pro_score":7.14}
-{"provider":"GCP","service_name":"Notebooks","gemini_1_5_pro_score":7.14}
+{"provider":"GCP","service_name":"Firebase Hosting","gemini_1_5_pro_score":7.14}
 {"provider":"GCP","service_name":"Cloud Deploy","gemini_1_5_pro_score":7.14}
 {"provider":"GCP","service_name":"Workflows","gemini_1_5_pro_score":7.14}
+{"provider":"GCP","service_name":"Immersive Stream for XR","gemini_1_5_pro_score":7.14}
+{"provider":"GCP","service_name":"Notebooks","gemini_1_5_pro_score":7.14}
 {"provider":"GCP","score":7.75,"service_name":"Cloud Build","gemini_1_5_pro_score":7.14}
-{"provider":"GCP","service_name":"Firebase Hosting","gemini_1_5_pro_score":7.14}
+{"provider":"GCP","service_name":"Cloud IDS","gemini_1_5_pro_score":7.64}
 {"provider":"GCP","score":6,"service_name":"Cloud Key Management Service (KMS)","gemini_1_5_pro_score":7.64}
 {"provider":"GCP","service_name":"BeyondCorp Enterprise","gemini_1_5_pro_score":7.64}
-{"provider":"GCP","service_name":"Cloud IDS","gemini_1_5_pro_score":7.64}
 {"provider":"GCP","service_name":"Storage Insights","gemini_1_5_pro_score":8.07}
-{"provider":"GCP","service_name":"Web Risk","gemini_1_5_pro_score":8.07}
-{"provider":"GCP","service_name":"Timeseries Insights API","gemini_1_5_pro_score":8.07}
-{"provider":"GCP","service_name":"Retail API","gemini_1_5_pro_score":8.07}
 {"provider":"GCP","service_name":"BigQuery BI Engine","gemini_1_5_pro_score":8.07}
 {"provider":"GCP","score":8.09,"service_name":"Cloud Dialogflow API","gemini_1_5_pro_score":8.07}
+{"provider":"GCP","service_name":"Retail API","gemini_1_5_pro_score":8.07}
+{"provider":"GCP","service_name":"Timeseries Insights API","gemini_1_5_pro_score":8.07}
+{"provider":"GCP","service_name":"Web Risk","gemini_1_5_pro_score":8.07}
 {"provider":"GCP","service_name":"reCAPTCHA Enterprise","gemini_1_5_pro_score":8.07}
 {"provider":"GCP","service_name":"Bare Metal Solution","gemini_1_5_pro_score":2.21}
 {"provider":"GCP","service_name":"Google Service Control","gemini_1_5_pro_score":5.93}
-{"provider":"GCP","service_name":"BigQuery Data Transfer Service","gemini_1_5_pro_score":6.43}
-{"provider":"GCP","service_name":"Cloud Machine Learning Engine","gemini_1_5_pro_score":6.43}
-{"provider":"GCP","service_name":"Google Distributed Cloud Edge","gemini_1_5_pro_score":6.43}
 {"provider":"GCP","service_name":"Database Migration","gemini_1_5_pro_score":6.43}
+{"provider":"GCP","service_name":"Google Distributed Cloud Edge","gemini_1_5_pro_score":6.43}
 {"provider":"GCP","service_name":"Cloud IoT Core","gemini_1_5_pro_score":6.43}
-{"provider":"GCP","service_name":"Cloud Healthcare","gemini_1_5_pro_score":6.93}
+{"provider":"GCP","service_name":"Cloud Machine Learning Engine","gemini_1_5_pro_score":6.43}
+{"provider":"GCP","service_name":"BigQuery Data Transfer Service","gemini_1_5_pro_score":6.43}
 {"provider":"GCP","score":4.79,"service_name":"App Engine","gemini_1_5_pro_score":6.93}
-{"provider":"GCP","score":6.25,"service_name":"Custom Search","gemini_1_5_pro_score":7.43}
+{"provider":"GCP","service_name":"Cloud Healthcare","gemini_1_5_pro_score":6.93}
 {"provider":"GCP","service_name":"Programmable Search Element","gemini_1_5_pro_score":7.43}
-{"provider":"GCP","service_name":"Contact Center AI Insights","gemini_1_5_pro_score":7.93}
+{"provider":"GCP","score":6.25,"service_name":"Custom Search","gemini_1_5_pro_score":7.43}
 {"provider":"GCP","service_name":"Looker","gemini_1_5_pro_score":7.93}
-{"provider":"GCP","service_name":"Google Maps Platform - Routes","gemini_1_5_pro_score":8.36}
-{"provider":"GCP","service_name":"Maps Elevation API","gemini_1_5_pro_score":8.36}
-{"provider":"GCP","service_name":"Maps Embed API","gemini_1_5_pro_score":8.36}
-{"provider":"GCP","service_name":"Address Validation API","gemini_1_5_pro_score":8.36}
-{"provider":"GCP","score":8.2,"service_name":"Google Maps Tile API","gemini_1_5_pro_score":8.36}
-{"provider":"GCP","service_name":"Directions API","gemini_1_5_pro_score":8.36}
-{"provider":"GCP","service_name":"Aerial View API","gemini_1_5_pro_score":8.36}
-{"provider":"GCP","score":7.71,"service_name":"Places API","gemini_1_5_pro_score":8.36}
-{"provider":"GCP","service_name":"Route Optimization API","gemini_1_5_pro_score":8.36}
-{"provider":"GCP","service_name":"Places API (New)","gemini_1_5_pro_score":8.36}
-{"provider":"GCP","service_name":"Google Maps Platform Air Quality Service","gemini_1_5_pro_score":8.36}
-{"provider":"GCP","service_name":"Geolocation API","gemini_1_5_pro_score":8.36}
-{"provider":"GCP","service_name":"Street View Static API","gemini_1_5_pro_score":8.36}
-{"provider":"GCP","score":8.16,"service_name":"Geocoding API","gemini_1_5_pro_score":8.36}
-{"provider":"GCP","service_name":"Google Maps Platform Pollen Service","gemini_1_5_pro_score":8.36}
-{"provider":"GCP","score":8.07,"service_name":"Maps API","gemini_1_5_pro_score":8.36}
-{"provider":"GCP","service_name":"Maps Static API","gemini_1_5_pro_score":8.36}
-{"provider":"GCP","service_name":"Cloud Natural Language","gemini_1_5_pro_score":8.36}
+{"provider":"GCP","service_name":"Contact Center AI Insights","gemini_1_5_pro_score":7.93}
 {"provider":"GCP","service_name":"Google Maps Platform Solar Service","gemini_1_5_pro_score":8.36}
+{"provider":"GCP","score":7.71,"service_name":"Places API","gemini_1_5_pro_score":8.36}
+{"provider":"GCP","service_name":"Geolocation API","gemini_1_5_pro_score":8.36}
+{"provider":"GCP","service_name":"Google Maps Platform Air Quality Service","gemini_1_5_pro_score":8.36}
 {"provider":"GCP","service_name":"Distance Matrix API","gemini_1_5_pro_score":8.36}
+{"provider":"GCP","service_name":"Aerial View API","gemini_1_5_pro_score":8.36}
+{"provider":"GCP","service_name":"Route Optimization API","gemini_1_5_pro_score":8.36}
+{"provider":"GCP","service_name":"Maps Embed API","gemini_1_5_pro_score":8.36}
+{"provider":"GCP","service_name":"Street View Static API","gemini_1_5_pro_score":8.36}
+{"provider":"GCP","score":8.2,"service_name":"Google Maps Tile API","gemini_1_5_pro_score":8.36}
+{"provider":"GCP","score":8.07,"service_name":"Maps API","gemini_1_5_pro_score":8.36}
+{"provider":"GCP","service_name":"Places API (New)","gemini_1_5_pro_score":8.36}
+{"provider":"GCP","score":8.16,"service_name":"Geocoding API","gemini_1_5_pro_score":8.36}
+{"provider":"GCP","service_name":"Maps Static API","gemini_1_5_pro_score":8.36}
 {"provider":"GCP","service_name":"Roads API","gemini_1_5_pro_score":8.36}
+{"provider":"GCP","service_name":"Address Validation API","gemini_1_5_pro_score":8.36}
+{"provider":"GCP","service_name":"Cloud Natural Language","gemini_1_5_pro_score":8.36}
+{"provider":"GCP","service_name":"Directions API","gemini_1_5_pro_score":8.36}
+{"provider":"GCP","service_name":"Google Maps Platform Pollen Service","gemini_1_5_pro_score":8.36}
+{"provider":"GCP","service_name":"Maps Elevation API","gemini_1_5_pro_score":8.36}
+{"provider":"GCP","service_name":"Google Maps Platform - Routes","gemini_1_5_pro_score":8.36}
 {"provider":"GCP","service_name":"Time Zone API","gemini_1_5_pro_score":8.36}
 {"provider":"GCP","service_name":"Anthos Service Mesh","gemini_1_5_pro_score":4.21}
 {"provider":"GCP","score":3.79,"service_name":"Networking","gemini_1_5_pro_score":4.71}
-{"provider":"GCP","service_name":"Dataproc","gemini_1_5_pro_score":5.71}
 {"provider":"GCP","service_name":"Elastifile Cloud File System","gemini_1_5_pro_score":5.71}
 {"provider":"GCP","service_name":"Transfer Service","gemini_1_5_pro_score":5.71}
+{"provider":"GCP","service_name":"Dataproc","gemini_1_5_pro_score":5.71}
 {"provider":"GCP","service_name":"API Gateway","gemini_1_5_pro_score":6.21}
 {"provider":"GCP","service_name":"Telecom Network Automation","gemini_1_5_pro_score":6.71}
-{"provider":"GCP","service_name":"Remote Build Execution","gemini_1_5_pro_score":7.21}
-{"provider":"GCP","score":7.14,"service_name":"Cloud Monitoring","gemini_1_5_pro_score":7.21}
 {"provider":"GCP","service_name":"Stackdriver","gemini_1_5_pro_score":7.21}
-{"provider":"GCP","service_name":"Dataplex","gemini_1_5_pro_score":7.21}
-{"provider":"GCP","service_name":"Document Warehouse","gemini_1_5_pro_score":7.21}
+{"provider":"GCP","score":7.84,"service_name":"BigQuery","gemini_1_5_pro_score":7.21}
+{"provider":"GCP","score":7.14,"service_name":"Cloud Monitoring","gemini_1_5_pro_score":7.21}
 {"provider":"GCP","service_name":"Certificate Authority Service","gemini_1_5_pro_score":7.21}
 {"provider":"GCP","service_name":"Pub/Sub Lite","gemini_1_5_pro_score":7.21}
-{"provider":"GCP","score":7.84,"service_name":"BigQuery","gemini_1_5_pro_score":7.21}
-{"provider":"GCP","service_name":"Cloud Data Labeling Service","gemini_1_5_pro_score":7.71}
+{"provider":"GCP","service_name":"Document Warehouse","gemini_1_5_pro_score":7.21}
+{"provider":"GCP","service_name":"Dataplex","gemini_1_5_pro_score":7.21}
+{"provider":"GCP","service_name":"Remote Build Execution","gemini_1_5_pro_score":7.21}
 {"provider":"GCP","service_name":"Cloud Trace","gemini_1_5_pro_score":7.71}
+{"provider":"GCP","service_name":"Cloud Data Labeling Service","gemini_1_5_pro_score":7.71}
 {"provider":"GCP","service_name":"Deep Learning VM","gemini_1_5_pro_score":2.86}
-{"provider":"GCP","service_name":"Chrome Enterprise Premium","gemini_1_5_pro_score":8.21}
-{"provider":"GCP","service_name":"Duet AI","gemini_1_5_pro_score":8.21}
-{"provider":"GCP","service_name":"Payment Gateway","gemini_1_5_pro_score":8.21}
-{"provider":"GCP","service_name":"Cloud Domains","gemini_1_5_pro_score":8.21}
 {"provider":"GCP","service_name":"Firebase","gemini_1_5_pro_score":8.21}
 {"provider":"GCP","service_name":"Security Command Center","gemini_1_5_pro_score":8.21}
+{"provider":"GCP","service_name":"Payment Gateway","gemini_1_5_pro_score":8.21}
+{"provider":"GCP","service_name":"Cloud Domains","gemini_1_5_pro_score":8.21}
+{"provider":"GCP","service_name":"Chrome Enterprise Premium","gemini_1_5_pro_score":8.21}
+{"provider":"GCP","service_name":"Duet AI","gemini_1_5_pro_score":8.21}
 {"provider":"GCP","service_name":"Looker Data Platform SaaS","gemini_1_5_pro_score":8.71}
 {"provider":"Azure","score":3.61,"service_name":"Cloud Services"}
 {"provider":"Azure","service_name":"Azure Stack HCI","gemini_1_5_pro_score":2.5}
 {"provider":"Azure","service_name":"Azure Operator Nexus","gemini_1_5_pro_score":3.5}
 {"provider":"Azure","service_name":"StorSimple","gemini_1_5_pro_score":5}
-{"provider":"Azure","service_name":"Azure Programmable Connectivity","gemini_1_5_pro_score":5.5}
-{"provider":"Azure","service_name":"Azure IoT Security","gemini_1_5_pro_score":5.5}
-{"provider":"Azure","service_name":"Packet Core","gemini_1_5_pro_score":5.5}
-{"provider":"Azure","score":4.61,"service_name":"Network Watcher","gemini_1_5_pro_score":5.5}
 {"provider":"Azure","score":3.09,"service_name":"VPN Gateway","gemini_1_5_pro_score":5.5}
-{"provider":"Azure","service_name":"Private Mobile Network","gemini_1_5_pro_score":6}
+{"provider":"Azure","service_name":"Azure IoT Security","gemini_1_5_pro_score":5.5}
+{"provider":"Azure","score":4.61,"service_name":"Network Watcher","gemini_1_5_pro_score":5.5}
+{"provider":"Azure","service_name":"Azure Programmable Connectivity","gemini_1_5_pro_score":5.5}
+{"provider":"Azure","service_name":"Packet Core","gemini_1_5_pro_score":5.5}
 {"provider":"Azure","score":3.57,"service_name":"Container Instances","gemini_1_5_pro_score":6}
 {"provider":"Azure","score":8.21,"service_name":"Azure API for FHIR","gemini_1_5_pro_score":6}
+{"provider":"Azure","service_name":"Private Mobile Network","gemini_1_5_pro_score":6}
 {"provider":"Azure","service_name":"Traffic Manager","gemini_1_5_pro_score":6.5}
-{"provider":"Azure","score":2.82,"service_name":"Azure Site Recovery","gemini_1_5_pro_score":7}
-{"provider":"Azure","service_name":"Microsoft Graph data connect","gemini_1_5_pro_score":7}
-{"provider":"Azure","service_name":"Azure Chaos Studio","gemini_1_5_pro_score":7}
 {"provider":"Azure","service_name":"Intelligent Recommendations","gemini_1_5_pro_score":7}
+{"provider":"Azure","service_name":"Microsoft Graph data connect","gemini_1_5_pro_score":7}
+{"provider":"Azure","score":2.82,"service_name":"Azure Site Recovery","gemini_1_5_pro_score":7}
+{"provider":"Azure","service_name":"Azure Chaos Studio","gemini_1_5_pro_score":7}
+{"provider":"Azure","service_name":"Microsoft Copilot for Security","gemini_1_5_pro_score":7.5}
+{"provider":"Azure","service_name":"Quantum Computing","gemini_1_5_pro_score":7.5}
 {"provider":"Azure","service_name":"Syntex","gemini_1_5_pro_score":7.5}
 {"provider":"Azure","service_name":"Azure Active Directory for External Identities","gemini_1_5_pro_score":7.5}
-{"provider":"Azure","service_name":"Quantum Computing","gemini_1_5_pro_score":7.5}
-{"provider":"Azure","service_name":"Microsoft Copilot for Security","gemini_1_5_pro_score":7.5}
 {"provider":"Azure","service_name":"Power Automate","gemini_1_5_pro_score":8.5}
 {"provider":"Azure","service_name":"Azure Stack Hub","gemini_1_5_pro_score":2.64}
 {"provider":"Azure","score":3.07,"service_name":"ExpressRoute","gemini_1_5_pro_score":3.14}
 {"provider":"Azure","service_name":"SQL DB Edge","gemini_1_5_pro_score":3.64}
 {"provider":"Azure","service_name":"Virtual Machines Licenses","gemini_1_5_pro_score":1.57}
-{"provider":"Azure","service_name":"Azure Update Manager","gemini_1_5_pro_score":4.29}
 {"provider":"Azure","score":4.04,"service_name":"Storage","gemini_1_5_pro_score":4.29}
+{"provider":"Azure","service_name":"Azure Update Manager","gemini_1_5_pro_score":4.29}
 {"provider":"Azure","service_name":"Azure SQL Edge","gemini_1_5_pro_score":4.79}
 {"provider":"Azure","service_name":"SQL Server Stretch Database","gemini_1_5_pro_score":5.29}
 {"provider":"Azure","score":3.21,"service_name":"HPC Cache","gemini_1_5_pro_score":5.79}
 {"provider":"Azure","service_name":"Microsoft Playwright Testing","gemini_1_5_pro_score":6.29}
-{"provider":"Azure","score":6.82,"service_name":"Data Lake Analytics","gemini_1_5_pro_score":6.79}
+{"provider":"Azure","score":5.96,"service_name":"Automation","gemini_1_5_pro_score":6.79}
 {"provider":"Azure","score":7.82,"service_name":"Media Services","gemini_1_5_pro_score":6.79}
 {"provider":"Azure","service_name":"Sentinel","gemini_1_5_pro_score":6.79}
-{"provider":"Azure","score":5.96,"service_name":"Automation","gemini_1_5_pro_score":6.79}
+{"provider":"Azure","score":6.82,"service_name":"Data Lake Analytics","gemini_1_5_pro_score":6.79}
 {"provider":"Azure","service_name":"Azure Machine Learning","gemini_1_5_pro_score":6.79}
-{"provider":"Azure","score":8.07,"service_name":"Key Vault","gemini_1_5_pro_score":7.29}
 {"provider":"Azure","service_name":"Microsoft Entra Domain Services","gemini_1_5_pro_score":7.29}
+{"provider":"Azure","score":8.07,"service_name":"Key Vault","gemini_1_5_pro_score":7.29}
+{"provider":"Azure","service_name":"Voice","gemini_1_5_pro_score":7.79}
 {"provider":"Azure","service_name":"AI Ops","gemini_1_5_pro_score":7.79}
 {"provider":"Azure","service_name":"Microsoft Entra Verified ID","gemini_1_5_pro_score":7.79}
-{"provider":"Azure","service_name":"Voice","gemini_1_5_pro_score":7.79}
+{"provider":"Azure","service_name":"Hybrid Data Services","gemini_1_5_pro_score":4.07}
 {"provider":"Azure","service_name":"AKS on Azure Stack HCI","gemini_1_5_pro_score":4.07}
 {"provider":"Azure","service_name":"Microsoft Azure Peering Service","gemini_1_5_pro_score":4.07}
-{"provider":"Azure","service_name":"Hybrid Data Services","gemini_1_5_pro_score":4.07}
 {"provider":"Azure","service_name":"Azure Arc-enabled AKS","gemini_1_5_pro_score":4.57}
 {"provider":"Azure","score":4.82,"service_name":"Azure Arc Enabled Databases","gemini_1_5_pro_score":5.07}
-{"provider":"Azure","score":4.3,"service_name":"Application Gateway","gemini_1_5_pro_score":5.57}
 {"provider":"Azure","score":4.46,"service_name":"Azure DNS","gemini_1_5_pro_score":5.57}
+{"provider":"Azure","score":4.3,"service_name":"Application Gateway","gemini_1_5_pro_score":5.57}
 {"provider":"Azure","service_name":"Azure Arc","gemini_1_5_pro_score":6.07}
-{"provider":"Azure","service_name":"Microsoft Dev Box","gemini_1_5_pro_score":6.07}
-{"provider":"Azure","service_name":"Kusto","gemini_1_5_pro_score":6.07}
 {"provider":"Azure","service_name":"Test Base","gemini_1_5_pro_score":6.07}
-{"provider":"Azure","score":4.79,"service_name":"Backup","gemini_1_5_pro_score":6.57}
-{"provider":"Azure","service_name":"Routing","gemini_1_5_pro_score":6.57}
+{"provider":"Azure","service_name":"Kusto","gemini_1_5_pro_score":6.07}
+{"provider":"Azure","service_name":"Microsoft Dev Box","gemini_1_5_pro_score":6.07}
 {"provider":"Azure","service_name":"Windows Virtual Desktop","gemini_1_5_pro_score":6.57}
+{"provider":"Azure","service_name":"Routing","gemini_1_5_pro_score":6.57}
+{"provider":"Azure","score":4.79,"service_name":"Backup","gemini_1_5_pro_score":6.57}
 {"provider":"Azure","service_name":"Azure Firewall","gemini_1_5_pro_score":7.07}
-{"provider":"Azure","score":3.36,"service_name":"Data Lake Store","gemini_1_5_pro_score":7.07}
-{"provider":"Azure","score":7.96,"service_name":"Event Grid","gemini_1_5_pro_score":7.07}
-{"provider":"Azure","score":7.46,"service_name":"Insight and Analytics","gemini_1_5_pro_score":7.07}
 {"provider":"Azure","service_name":"App Configuration","gemini_1_5_pro_score":7.07}
+{"provider":"Azure","score":7.96,"service_name":"Event Grid","gemini_1_5_pro_score":7.07}
+{"provider":"Azure","score":3.36,"service_name":"Data Lake Store","gemini_1_5_pro_score":7.07}
 {"provider":"Azure","service_name":"Phone Numbers","gemini_1_5_pro_score":7.07}
 {"provider":"Azure","score":7.18,"service_name":"Power BI Embedded","gemini_1_5_pro_score":7.07}
+{"provider":"Azure","score":7.46,"service_name":"Insight and Analytics","gemini_1_5_pro_score":7.07}
 {"provider":"Azure","service_name":"Change Tracking and Inventory","gemini_1_5_pro_score":7.57}
-{"provider":"Azure","score":7.68,"service_name":"Log Analytics","gemini_1_5_pro_score":7.57}
 {"provider":"Azure","service_name":"Azure Synthetics","gemini_1_5_pro_score":7.57}
-{"provider":"Azure","service_name":"SMS","gemini_1_5_pro_score":8.14}
-{"provider":"Azure","service_name":"IoT Central","gemini_1_5_pro_score":8.14}
-{"provider":"Azure","service_name":"Azure Active Directory B2C","gemini_1_5_pro_score":8.14}
+{"provider":"Azure","score":7.68,"service_name":"Log Analytics","gemini_1_5_pro_score":7.57}
 {"provider":"Azure","service_name":"Service Fabric Mesh","gemini_1_5_pro_score":8.14}
+{"provider":"Azure","service_name":"SMS","gemini_1_5_pro_score":8.14}
+{"provider":"Azure","service_name":"Azure Active Directory B2C","gemini_1_5_pro_score":8.14}
+{"provider":"Azure","service_name":"IoT Central","gemini_1_5_pro_score":8.14}
 {"provider":"Azure","service_name":"Bandwidth","gemini_1_5_pro_score":3.29}
 {"provider":"Azure","service_name":"Advanced Container Networking Services","gemini_1_5_pro_score":3.79}
 {"provider":"Azure","score":1.5,"service_name":"Virtual Machines","gemini_1_5_pro_score":1.71}
+{"provider":"Azure","score":8.32,"service_name":"Functions","gemini_1_5_pro_score":8.43}
 {"provider":"Azure","service_name":"Power Pages","gemini_1_5_pro_score":8.43}
 {"provider":"Azure","score":7.25,"service_name":"Azure Maps","gemini_1_5_pro_score":8.43}
-{"provider":"Azure","score":8.32,"service_name":"Functions","gemini_1_5_pro_score":8.43}
 {"provider":"Azure","service_name":"Email","gemini_1_5_pro_score":8.93}
-{"provider":"Azure","score":2.36,"service_name":"Virtual Network","gemini_1_5_pro_score":4.36}
 {"provider":"Azure","score":5.04,"service_name":"Container Registry","gemini_1_5_pro_score":4.36}
 {"provider":"Azure","score":3.93,"service_name":"NAT Gateway","gemini_1_5_pro_score":4.36}
+{"provider":"Azure","score":2.36,"service_name":"Virtual Network","gemini_1_5_pro_score":4.36}
 {"provider":"Azure","service_name":"Virtual WAN","gemini_1_5_pro_score":4.86}
-{"provider":"Azure","service_name":"GitHub AE","gemini_1_5_pro_score":5.36}
-{"provider":"Azure","service_name":"Mixed Reality","gemini_1_5_pro_score":5.36}
 {"provider":"Azure","service_name":"Network Traversal","gemini_1_5_pro_score":5.36}
+{"provider":"Azure","service_name":"Mixed Reality","gemini_1_5_pro_score":5.36}
+{"provider":"Azure","service_name":"GitHub AE","gemini_1_5_pro_score":5.36}
 {"provider":"Azure","service_name":"HDInsight","gemini_1_5_pro_score":5.86}
 {"provider":"Azure","score":5.36,"service_name":"Redis Cache","gemini_1_5_pro_score":5.86}
 {"provider":"Azure","score":5.79,"service_name":"SQL Managed Instance","gemini_1_5_pro_score":5.86}
 {"provider":"Azure","score":7.54,"service_name":"Stream Analytics","gemini_1_5_pro_score":6.36}
-{"provider":"Azure","score":5.43,"service_name":"Azure App Service","gemini_1_5_pro_score":6.36}
 {"provider":"Azure","service_name":"Azure Modeling and Simulation Workbench","gemini_1_5_pro_score":6.36}
 {"provider":"Azure","service_name":"Azure Data Explorer","gemini_1_5_pro_score":6.36}
+{"provider":"Azure","score":5.43,"service_name":"Azure App Service","gemini_1_5_pro_score":6.36}
 {"provider":"Azure","score":7.18,"service_name":"Azure Data Share","gemini_1_5_pro_score":7.36}
 {"provider":"Azure","service_name":"Windows 10 IoT Core Services","gemini_1_5_pro_score":3.07}
 {"provider":"Azure","service_name":"Specialized Compute","gemini_1_5_pro_score":3.57}
@@ -500,84 +500,84 @@
 {"provider":"Azure","service_name":"Azure Resource Mover","gemini_1_5_pro_score":4.14}
 {"provider":"Azure","score":4.86,"service_name":"Azure Bastion","gemini_1_5_pro_score":5.14}
 {"provider":"Azure","service_name":"Voice Core","gemini_1_5_pro_score":5.64}
-{"provider":"Azure","service_name":"Azure Blockchain","gemini_1_5_pro_score":6.14}
 {"provider":"Azure","service_name":"Digital Twins","gemini_1_5_pro_score":6.14}
-{"provider":"Azure","score":3.29,"service_name":"Load Balancer","gemini_1_5_pro_score":6.14}
-{"provider":"Azure","score":7.36,"service_name":"Content Delivery Network","gemini_1_5_pro_score":6.14}
 {"provider":"Azure","service_name":"Service Fabric","gemini_1_5_pro_score":6.14}
 {"provider":"Azure","service_name":"BizTalk Services","gemini_1_5_pro_score":6.14}
-{"provider":"Azure","service_name":"Microsoft Azure Payment HSM","gemini_1_5_pro_score":6.14}
 {"provider":"Azure","service_name":"Azure VM Image Builder","gemini_1_5_pro_score":6.14}
-{"provider":"Azure","service_name":"Machine Learning Studio","gemini_1_5_pro_score":6.64}
+{"provider":"Azure","score":7.36,"service_name":"Content Delivery Network","gemini_1_5_pro_score":6.14}
+{"provider":"Azure","service_name":"Microsoft Azure Payment HSM","gemini_1_5_pro_score":6.14}
+{"provider":"Azure","service_name":"Azure Blockchain","gemini_1_5_pro_score":6.14}
+{"provider":"Azure","score":3.29,"service_name":"Load Balancer","gemini_1_5_pro_score":6.14}
 {"provider":"Azure","score":3.89,"service_name":"IoT Hub","gemini_1_5_pro_score":6.64}
 {"provider":"Azure","score":5.54,"service_name":"Service Bus","gemini_1_5_pro_score":6.64}
+{"provider":"Azure","service_name":"Machine Learning Studio","gemini_1_5_pro_score":6.64}
 {"provider":"Azure","service_name":"Azure Spring Cloud","gemini_1_5_pro_score":7.14}
-{"provider":"Azure","service_name":"Dataverse","gemini_1_5_pro_score":7.14}
 {"provider":"Azure","service_name":"Microsoft Fabric","gemini_1_5_pro_score":7.14}
 {"provider":"Azure","score":8.36,"service_name":"Microsoft Defender for Cloud","gemini_1_5_pro_score":7.14}
+{"provider":"Azure","service_name":"Dataverse","gemini_1_5_pro_score":7.14}
 {"provider":"Azure","score":7.95,"service_name":"Azure DevOps","gemini_1_5_pro_score":7.64}
-{"provider":"Azure","service_name":"Energy Data Manager","gemini_1_5_pro_score":7.64}
 {"provider":"Azure","service_name":"Azure Defender","gemini_1_5_pro_score":7.64}
 {"provider":"Azure","score":8.05,"service_name":"Azure Purview","gemini_1_5_pro_score":7.64}
-{"provider":"Azure","service_name":"PlayFab","gemini_1_5_pro_score":8.07}
+{"provider":"Azure","service_name":"Energy Data Manager","gemini_1_5_pro_score":7.64}
 {"provider":"Azure","score":7.75,"service_name":"MS Bing Services","gemini_1_5_pro_score":8.07}
+{"provider":"Azure","service_name":"PlayFab","gemini_1_5_pro_score":8.07}
 {"provider":"Azure","service_name":"Azure Route Server","gemini_1_5_pro_score":3.21}
 {"provider":"Azure","service_name":"AKS Edge Essentials","gemini_1_5_pro_score":3.71}
 {"provider":"Azure","service_name":"Azure Stack Edge","gemini_1_5_pro_score":5.43}
 {"provider":"Azure","service_name":"Azure Orbital","gemini_1_5_pro_score":5.43}
-{"provider":"Azure","score":5.89,"service_name":"Azure Front Door Service","gemini_1_5_pro_score":5.93}
 {"provider":"Azure","score":5.64,"service_name":"Azure Databricks","gemini_1_5_pro_score":5.93}
-{"provider":"Azure","score":5.04,"service_name":"Azure Data Factory v2","gemini_1_5_pro_score":6.43}
-{"provider":"Azure","service_name":"Azure Firewall Manager","gemini_1_5_pro_score":6.43}
-{"provider":"Azure","score":5.96,"service_name":"Azure Cosmos DB","gemini_1_5_pro_score":6.43}
-{"provider":"Azure","score":5.57,"service_name":"Azure Kubernetes Service","gemini_1_5_pro_score":6.43}
+{"provider":"Azure","score":5.89,"service_name":"Azure Front Door Service","gemini_1_5_pro_score":5.93}
 {"provider":"Azure","score":8.43,"service_name":"Azure Monitor","gemini_1_5_pro_score":6.43}
-{"provider":"Azure","score":5.57,"service_name":"API Management","gemini_1_5_pro_score":6.93}
-{"provider":"Azure","service_name":"Azure Managed Instance for Apache Cassandra","gemini_1_5_pro_score":6.93}
+{"provider":"Azure","score":5.57,"service_name":"Azure Kubernetes Service","gemini_1_5_pro_score":6.43}
+{"provider":"Azure","score":5.96,"service_name":"Azure Cosmos DB","gemini_1_5_pro_score":6.43}
+{"provider":"Azure","service_name":"Azure Firewall Manager","gemini_1_5_pro_score":6.43}
+{"provider":"Azure","score":5.04,"service_name":"Azure Data Factory v2","gemini_1_5_pro_score":6.43}
 {"provider":"Azure","service_name":"Azure Container Apps","gemini_1_5_pro_score":6.93}
-{"provider":"Azure","service_name":"Azure Fluid Relay","gemini_1_5_pro_score":6.93}
 {"provider":"Azure","service_name":"Microsoft Azure Internet Analyzer","gemini_1_5_pro_score":6.93}
+{"provider":"Azure","service_name":"Azure Fluid Relay","gemini_1_5_pro_score":6.93}
+{"provider":"Azure","service_name":"Azure Managed Instance for Apache Cassandra","gemini_1_5_pro_score":6.93}
+{"provider":"Azure","score":5.57,"service_name":"API Management","gemini_1_5_pro_score":6.93}
 {"provider":"Azure","score":6.82,"service_name":"Azure Lab Services","gemini_1_5_pro_score":6.93}
 {"provider":"Azure","service_name":"Azure confidential ledger","gemini_1_5_pro_score":7.43}
 {"provider":"Azure","service_name":"App Center","gemini_1_5_pro_score":7.93}
 {"provider":"Azure","service_name":"Multi-Factor Authentication","gemini_1_5_pro_score":8.36}
 {"provider":"Azure","service_name":"Data Box","gemini_1_5_pro_score":5.21}
 {"provider":"Azure","service_name":"Azure Policy","gemini_1_5_pro_score":5.21}
-{"provider":"Azure","service_name":"Azure NetApp Files","gemini_1_5_pro_score":5.71}
 {"provider":"Azure","score":5.29,"service_name":"Azure Database for PostgreSQL","gemini_1_5_pro_score":5.71}
 {"provider":"Azure","score":5.29,"service_name":"Azure Database for MySQL","gemini_1_5_pro_score":5.71}
 {"provider":"Azure","service_name":"Azure Database for MariaDB","gemini_1_5_pro_score":5.71}
-{"provider":"Azure","service_name":"Web PubSub","gemini_1_5_pro_score":6.21}
-{"provider":"Azure","service_name":"Azure Database Migration Service","gemini_1_5_pro_score":6.21}
-{"provider":"Azure","score":5.61,"service_name":"SQL Database","gemini_1_5_pro_score":6.21}
-{"provider":"Azure","score":5.07,"service_name":"Azure Synapse Analytics","gemini_1_5_pro_score":6.21}
-{"provider":"Azure","service_name":"Azure Analysis Services","gemini_1_5_pro_score":6.21}
+{"provider":"Azure","service_name":"Azure NetApp Files","gemini_1_5_pro_score":5.71}
 {"provider":"Azure","service_name":"Microsoft Genomics","gemini_1_5_pro_score":6.21}
-{"provider":"Azure","service_name":"SQL Data Warehouse","gemini_1_5_pro_score":6.21}
+{"provider":"Azure","score":5.07,"service_name":"Azure Synapse Analytics","gemini_1_5_pro_score":6.21}
+{"provider":"Azure","service_name":"Azure Database Migration Service","gemini_1_5_pro_score":6.21}
+{"provider":"Azure","service_name":"Azure Analysis Services","gemini_1_5_pro_score":6.21}
+{"provider":"Azure","score":5.61,"service_name":"SQL Database","gemini_1_5_pro_score":6.21}
 {"provider":"Azure","service_name":"Messaging","gemini_1_5_pro_score":6.21}
-{"provider":"Azure","service_name":"Azure DDOS Protection","gemini_1_5_pro_score":6.71}
+{"provider":"Azure","service_name":"Web PubSub","gemini_1_5_pro_score":6.21}
+{"provider":"Azure","service_name":"SQL Data Warehouse","gemini_1_5_pro_score":6.21}
 {"provider":"Azure","score":5.32,"service_name":"Event Hubs","gemini_1_5_pro_score":6.71}
-{"provider":"Azure","service_name":"Time Series Insights","gemini_1_5_pro_score":6.71}
 {"provider":"Azure","score":7.54,"service_name":"Azure Bot Service","gemini_1_5_pro_score":6.71}
+{"provider":"Azure","service_name":"Azure Orbital Edge","gemini_1_5_pro_score":6.71}
+{"provider":"Azure","score":7.21,"service_name":"SignalR","gemini_1_5_pro_score":6.71}
+{"provider":"Azure","service_name":"Azure DDOS Protection","gemini_1_5_pro_score":6.71}
+{"provider":"Azure","service_name":"Time Series Insights","gemini_1_5_pro_score":6.71}
+{"provider":"Azure","service_name":"Notification Hubs","gemini_1_5_pro_score":6.71}
 {"provider":"Azure","score":7.32,"service_name":"Azure Cognitive Search","gemini_1_5_pro_score":6.71}
 {"provider":"Azure","service_name":"Application Insights","gemini_1_5_pro_score":6.71}
-{"provider":"Azure","service_name":"Azure Orbital Edge","gemini_1_5_pro_score":6.71}
-{"provider":"Azure","service_name":"Notification Hubs","gemini_1_5_pro_score":6.71}
-{"provider":"Azure","score":7.21,"service_name":"SignalR","gemini_1_5_pro_score":6.71}
 {"provider":"Azure","service_name":"Azure Grafana Service","gemini_1_5_pro_score":6.71}
-{"provider":"Azure","service_name":"Azure API Center","gemini_1_5_pro_score":7.21}
-{"provider":"Azure","service_name":"Azure Load Testing","gemini_1_5_pro_score":7.21}
 {"provider":"Azure","score":7.79,"service_name":"Logic Apps","gemini_1_5_pro_score":7.21}
 {"provider":"Azure","service_name":"Azure Data Factory","gemini_1_5_pro_score":7.21}
+{"provider":"Azure","service_name":"Azure Load Testing","gemini_1_5_pro_score":7.21}
+{"provider":"Azure","service_name":"Azure API Center","gemini_1_5_pro_score":7.21}
 {"provider":"Azure","service_name":"Spatial Anchors","gemini_1_5_pro_score":7.21}
 {"provider":"Azure","service_name":"Fraud Protection","gemini_1_5_pro_score":7.71}
 {"provider":"Azure","service_name":"Azure Remote Rendering","gemini_1_5_pro_score":7.71}
-{"provider":"Azure","score":8.11,"service_name":"Azure Applied AI Services","gemini_1_5_pro_score":8.21}
-{"provider":"Azure","service_name":"Power BI","gemini_1_5_pro_score":8.21}
-{"provider":"Azure","service_name":"GitHub","gemini_1_5_pro_score":8.21}
-{"provider":"Azure","score":8.18,"service_name":"Cognitive Services","gemini_1_5_pro_score":8.21}
-{"provider":"Azure","service_name":"Dynamics 365 for Customer Insights","gemini_1_5_pro_score":8.21}
-{"provider":"Azure","service_name":"Microsoft Graph Services","gemini_1_5_pro_score":8.21}
 {"provider":"Azure","service_name":"Scheduler","gemini_1_5_pro_score":8.21}
-{"provider":"Azure","service_name":"Visual Studio Subscription","gemini_1_5_pro_score":8.21}
+{"provider":"Azure","score":8.11,"service_name":"Azure Applied AI Services","gemini_1_5_pro_score":8.21}
+{"provider":"Azure","service_name":"Microsoft Graph Services","gemini_1_5_pro_score":8.21}
+{"provider":"Azure","service_name":"Dynamics 365 for Customer Insights","gemini_1_5_pro_score":8.21}
+{"provider":"Azure","service_name":"Power BI","gemini_1_5_pro_score":8.21}
 {"provider":"Azure","service_name":"Visual Studio Codespaces","gemini_1_5_pro_score":8.21}
+{"provider":"Azure","score":8.18,"service_name":"Cognitive Services","gemini_1_5_pro_score":8.21}
+{"provider":"Azure","service_name":"GitHub","gemini_1_5_pro_score":8.21}
+{"provider":"Azure","service_name":"Visual Studio Subscription","gemini_1_5_pro_score":8.21}

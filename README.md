@@ -7,7 +7,7 @@ The Cloud Elevation Index metric was developed at Penn State University to show 
 
 Note that the schema has more fields than are currently used. These are for future use.  
 
-`bq load Cloud_Elevation_Index.CEI_SKU_Scoring --schema schema.json --clustering_fields provider,service_name cei_scores.nljson`
+`bq load Cloud_Elevation_Index.CEI_SKU_Scoring --schema schema.json --clustering_fields provider,service_name cei_scores.ndjson`
 
 ## Creating a new Score ##
 When an unseen service shows up in billing data that service will not be counted until a service score is assigned. To simplify this operation, we generated an AI prompt to evaluate services based on a rubric. The default prompt is included [here](default_prompt.json). It is formatted for a curl request to Vertex AI and a Gemini multi-modal model. The text can be extracted to be used against other models if desired, however results may vary significantly. 
