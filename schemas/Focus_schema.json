@@ -1,0 +1,512 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "AvailabilityZone",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BilledCost",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BillingAccountId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BillingAccountName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BillingCurrency",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BillingPeriodEnd",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BillingPeriodStart",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ChargeCategory",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ChargeClass",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ChargeDescription",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ChargeFrequency",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ChargePeriodEnd",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ChargePeriodStart",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "CommitmentDiscountCategory",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "CommitmentDiscountId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "CommitmentDiscountName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "CommitmentDiscountStatus",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "CommitmentDiscountType",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ConsumedQuantity",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ConsumedUnit",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ContractedCost",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ContractedUnitPrice",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "EffectiveCost",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "InvoiceIssuerName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ListCost",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ListUnitPrice",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PricingCategory",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PricingQuantity",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PricingUnit",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ProviderName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PublisherName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "RegionId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "RegionName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ResourceId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ResourceName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ResourceType",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ServiceCategory",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ServiceName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SkuId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SkuPriceId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SubAccountId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SubAccountName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SubAccountType",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Tags",
+    "type": "JSON"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_CostCategories",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_Discounts",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_Operation",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_ServiceCode",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_UsageType",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BillingAccountType",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_AccountId",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_AccountName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_AccountOwnerId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_BilledCostInUsd",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_BilledUnitPrice",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_BillingAccountId",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_BillingAccountName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_BillingExchangeRate",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_BillingExchangeRateDate",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_BillingProfileId",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_BillingProfileName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_ContractedCostInUsd",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_CostAllocationRuleName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_CostCenter",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_CustomerId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_CustomerName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_EffectiveCostInUsd",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_EffectiveUnitPrice",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_InvoiceId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_InvoiceIssuerId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_InvoiceSectionId",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_InvoiceSectionName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_ListCostInUsd",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_PartnerCreditApplied",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_PartnerCreditRate",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_PricingBlockSize",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_PricingCurrency",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_PricingSubcategory",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_PricingUnitDescription",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_PublisherCategory",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_PublisherId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_ResellerId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_ResellerName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_ResourceGroupName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_ResourceType",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_ServicePeriodEnd",
+    "type": "DATETIME"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_ServicePeriodStart",
+    "type": "DATETIME"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_SkuDescription",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_SkuDetails",
+    "type": "JSON"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_SkuIsCreditEligible",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_SkuMeterCategory",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_SkuMeterId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_SkuMeterName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_SkuMeterSubcategory",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_SkuOfferId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_SkuOrderId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_SkuOrderName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_SkuPartINTEGER",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_SkuRegion",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_SkuServiceFamily",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_SkuTerm",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "x_SkuTier",
+    "type": "STRING"
+  }
+]
