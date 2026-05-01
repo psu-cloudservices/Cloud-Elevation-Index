@@ -1,0 +1,1 @@
+SELECT provider, service_name, gemini_2_0_flash.final_score as score_v1 FROM `Cloud_Elevation_Index.CEI_Scoring`

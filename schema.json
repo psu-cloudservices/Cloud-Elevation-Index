@@ -1,50 +1,64 @@
 [
-    {
-      "mode": "NULLABLE",
-      "name": "provider",
-      "type": "STRING"
-    },
-    {
-      "mode": "NULLABLE",
-      "name": "score",
-      "type": "FLOAT"
-    },
-    {
-      "mode": "NULLABLE",
-      "name": "service_name",
-      "type": "STRING"
-    },
-    {
-      "fields": [
-        {
-          "mode": "NULLABLE",
-          "name": "id",
-          "type": "STRING"
-        },
-        {
-          "mode": "REPEATED",
-          "name": "destination_migration_mappings",
-          "type": "STRING"
-        },
-        {
-          "mode": "NULLABLE",
-          "name": "description",
-          "type": "STRING"
-        }
-      ],
-      "mode": "NULLABLE",
-      "name": "sku",
-      "type": "RECORD"
-    },
-    {
-      "description": "CEI score as created in Gemini Pro 1.5",
-      "mode": "NULLABLE",
-      "name": "gemini_1_5_pro_score",
-      "type": "FLOAT"
-    },
-    {
-      "mode": "NULLABLE",
-      "name": "service_alias",
-      "type": "STRING"
-    }
-  ]
+  {
+    "mode": "REQUIRED",
+    "name": "provider",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "service_name",
+    "type": "STRING"
+  },
+  {
+    "mode": "REPEATED",
+    "name": "service_alias",
+    "type": "STRING"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "level_of_control",
+        "type": "NUMERIC"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "maintenance_and_updates",
+        "type": "NUMERIC"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "skill_requirement",
+        "type": "NUMERIC"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "cost_effectiveness",
+        "type": "NUMERIC"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "security_and_compliance",
+        "type": "NUMERIC"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "disaster_recovery_business_continuity",
+        "type": "NUMERIC"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "scalability_and_performance",
+        "type": "NUMERIC"
+      },
+      {
+        "mode": "REQUIRED",
+        "name": "final_score",
+        "type": "NUMERIC"
+      }
+    ],
+    "mode": "NULLABLE",
+    "name": "gemini_2_0_flash",
+    "type": "RECORD"
+  }
+]
