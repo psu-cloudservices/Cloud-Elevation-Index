@@ -4,4 +4,7 @@ This folder houses the implementation guides for the CEI project. For an introdu
 
 ## Guides
 
-- **[Billing Data Export Guide](billing-export.md)** — Step-by-step setup for getting AWS, Azure, and GCP billing data into BigQuery, where CEI can analyze it.
+Read in order — each guide builds on the one before it.
+
+1. **[Billing Data Export Guide](billing-export.md)** — Step-by-step setup for getting AWS, Azure, and GCP billing data into BigQuery, where CEI can analyze it.
+2. **[BigQuery Views Guide](bigquery-views.md)** — Creating the views that turn billing data into CEI scores, plus troubleshooting when scores look off.

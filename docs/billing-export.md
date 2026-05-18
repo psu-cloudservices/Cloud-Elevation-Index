@@ -260,7 +260,7 @@ Once your billing data is landing in S3, Azure Blob Storage, or BigQuery, the ne
 
 ## Once billing data is in BigQuery
 
-With billing data loaded into BigQuery tables, the CEI BigQuery views in the GitHub repository will generate the analysis. Here's the sequence:
+With billing data loaded into BigQuery tables, the CEI BigQuery views generate the analysis. The full walkthrough is in the [BigQuery Views Guide](bigquery-views.md). The sequence is:
 
 1. Load CEI service scores into BigQuery using the schema and data file in the repo
 2. Create the BigQuery views for each provider (AWS, Azure, GCP), each view needs to be pointed at your billing data tables
